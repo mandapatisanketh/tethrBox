@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Tethr Box Technologies
+	</title>
+	<script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="./bower_components/font-awesome/css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script>
+		$('#menuIcon').click(function(){
+			$('#sideBar').hide("slide", { direction: "left" }, 1000);
+		})
+	</script>
+
+</head>
+<body>
+	<div id="topNavContainer">
+		<img id="logo" src="./images/jci logo black and white.png">
+		<div id="menuIcon">
+			<i style="font-size: 1.7vw;" class="fa fa-bars"></i>
+			<p style="font-size: 1vw;">Menu</p>
+		</div>
+		<div style="background-color: #202020; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
+	</div>
+<!-- 	<div id="sideBar" style="background-color: #202020; height: 53.5vw; width: 20%; float: right;">
+	</div> -->
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+	width: 100%;
+	margin: 0px !important;
+}
+
+#topNavContainer {
+	background-color: black;
+	height: 6vw;
+}
+
+#logo {
+	margin-left: 6vw;
+	margin-top: 0.5vw;
+	float: left;
+}
+
+#menuIcon {
+	margin-right: 2vw;
+	float: right;
+	margin-top: 1.4vw;
+	text-align: center;
+	color: #faa51a;
+	cursor: pointer;
+}
+
+#menuIcon:hover {
+	color: white;
+}
