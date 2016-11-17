@@ -1,0 +1,460 @@
+.charge101-modal {
+  background: #fff url(bg-grad.2d52a93c0fbf55360b531d7a1eb06fcd.png) repeat-x 0 100%;
+  color: #333;
+  font-size: 16px;
+  font-family: "Proxima Nova Regular", helvetica, arial, sans-serif;
+  line-height: 20px;
+  height: 474px;
+  position: fixed;
+  width: 730px;
+}
+.charge101-modal .paddingContainer {
+  height: 336px;
+  padding: 88px 50px 50px;
+  width: 630px;
+}
+.charge101-modal .body {
+  display: inline;
+}
+.charge101-modal h2 {
+  color: #55c2c2;
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 27px;
+}
+.charge101-modal h3 {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 22px 0;
+}
+.charge101-modal h4 {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 18px 0;
+}
+.charge101-modal p {
+  margin: 18px 0;
+}
+.charge101-modal a {
+  color: #0097b1;
+}
+.charge101-modal strong {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+.charge101-modal .closeBtn {
+  background: #000;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  right: -30px;
+  width: 30px;
+}
+.charge101-modal .header {
+  margin-bottom: 24px;
+  margin-top: -51px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+.charge101-modal .header .badge {
+  position: absolute;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Proxima Nova Bold', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #ef3d6f;
+  font-size: 10px;
+  line-height: 1;
+}
+.charge101-modal .nav {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: -28px;
+  text-transform: uppercase;
+}
+.charge101-modal .nav li {
+  float: left;
+}
+.charge101-modal .nav a {
+  border-bottom: 2px solid #999;
+  color: #999;
+  display: block;
+  padding: 0 13px;
+  text-decoration: none;
+}
+.charge101-modal .screens {
+  height: 100%;
+}
+.charge101-modal .screen {
+  background: no-repeat 0 25px;
+  height: 100%;
+  position: relative;
+}
+.charge101-modal .screen .section {
+  float: right;
+  height: 100%;
+  padding-left: 316px;
+}
+.charge101-modal .screen li {
+  background: url(bullet.060afe77190597605935e28e201cb127.png) no-repeat 1px 7px;
+  margin: 14px 0;
+  padding-left: 12px;
+}
+.charge101-modal .navActions {
+  background: #fff;
+  bottom: 0;
+  font-size: 14px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  width: 100%;
+}
+.charge101-modal .navActions li {
+  display: inline;
+}
+.charge101-modal .navActions a {
+  color: #888;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 124px;
+}
+.charge101-modal .navActions a[rel=prev] {
+  border-right: 1px solid #d5d5d5;
+  float: left;
+  width: 123px;
+}
+.charge101-modal .navActions a[rel=next],
+.charge101-modal .navActions a[rel=done] {
+  background: #f64488;
+  color: #fff;
+  float: right;
+}
+.charge101-modal .navActions a[rel=done] {
+  display: none;
+}
+.charge101-modal .screen {
+  display: none;
+}
+.charge101-modal.wearing-charge .wearing-charge {
+  display: block;
+}
+.charge101-modal.display-options .display-options {
+  display: block;
+}
+.charge101-modal.goals .goals {
+  display: block;
+}
+.charge101-modal.tracking-sleep .tracking-sleep {
+  display: block;
+}
+.charge101-modal.call-notifications .call-notifications {
+  display: block;
+}
+.charge101-modal.silent-alarms .silent-alarms {
+  display: block;
+}
+.charge101-modal .navTabOn,
+.charge101-modal.wearing-charge .nav .basics a,
+.charge101-modal.display-options .nav .basics a,
+.charge101-modal.goals .nav .goals a,
+.charge101-modal.call-notifications .nav .calls a,
+.charge101-modal.tracking-sleep .nav .sleep a,
+.charge101-modal.silent-alarms .nav .sleep a {
+  border-color: #55c2c2;
+  color: #000;
+}
+.charge101-modal .screen.wearing-charge {
+  background-image: url(bg-wearing-charge.73412a560107d491ee3186bf237e3b11.jpg);
+}
+.charge101-modal .screen.display-options {
+  background-image: url(bg-display-options.73b9d219fefb49cba6d397a7626830b0.png);
+}
+.charge101-modal .screen.goals {
+  background-image: url(bg-goals.060ff409c9e5c4840f13a555f18fe6ca.png);
+  background-position: 0 53px;
+}
+.charge101-modal .screen.call-notifications {
+  background-image: url(bg-call-notifications.b9ccc1f8eb83bd7b73b0c098c70272c6.jpg);
+}
+.charge101-modal .screen.silent-alarms {
+  background-image: url(bg-silent-alarms.e480cc1bcc669943159fecf34f95454b.png);
+}
+.charge101-modal.wearing-charge a[rel=prev] {
+  display: none;
+}
+.charge101-modal.silent-alarms a[rel=next] {
+  display: none;
+}
+.charge101-modal.silent-alarms a[rel=done] {
+  display: block;
+}
+.charge101-modal.display-options .display-options-list {
+  display: block;
+  position: absolute;
+  top: 43px;
+  left: 53px;
+  font-size: 15px;
+  color: #888;
+}
+.charge101-modal.display-options .display-options-list li {
+  background: none;
+  margin: -2px 0 38px;
+  padding: 0 0 3px 0;
+}
+.charge101-modal.display-options .display-options-list li:first-child {
+  margin-top: 0;
+}
+.charge101-modal.display-options .display-options-list li:nth-child(2) {
+  margin-top: -12px;
+  margin-left: 20px;
+  padding-bottom: 9px;
+}
+.charge101-modal.call-notifications a:hover {
+  text-decoration: none;
+}
+html:lang(fr) .charge101-modal h2 {
+  font-size: 22px;
+}
+html:lang(it) .charge101-modal h2,
+body[class*="locale-es"] .charge101-modal h2 {
+  font-size: 20px;
+}
+.force101-modal {
+  background: #fff url(bg-grad.2d52a93c0fbf55360b531d7a1eb06fcd.png) repeat-x 0 100%;
+  color: #333;
+  font-size: 16px;
+  font-family: "Proxima Nova Regular", helvetica, arial, sans-serif;
+  line-height: 20px;
+  height: 474px;
+  position: fixed;
+  width: 730px;
+}
+.force101-modal .paddingContainer {
+  height: 336px;
+  padding: 88px 50px 50px;
+  width: 630px;
+}
+.force101-modal .body {
+  display: inline;
+}
+.force101-modal h2 {
+  color: #55c2c2;
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 27px;
+}
+.force101-modal h3 {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 22px 0;
+}
+.force101-modal h4 {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 18px 0;
+}
+.force101-modal p {
+  margin: 18px 0;
+}
+.force101-modal a {
+  color: #0097b1;
+}
+.force101-modal strong {
+  font-family: "Proxima Nova Bold", helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+.force101-modal .closeBtn {
+  background: #000;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  right: -30px;
+  width: 30px;
+}
+.force101-modal .header {
+  margin-bottom: 24px;
+  margin-top: -51px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+}
+.force101-modal .header .badge {
+  position: absolute;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Proxima Nova Bold', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #ef3d6f;
+  font-size: 10px;
+  line-height: 1;
+}
+.force101-modal .nav {
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: -28px;
+  text-transform: uppercase;
+}
+.force101-modal .nav li {
+  float: left;
+}
+.force101-modal .nav a {
+  border-bottom: 2px solid #999;
+  color: #999;
+  display: block;
+  padding: 0 13px;
+  text-decoration: none;
+}
+.force101-modal .screens {
+  height: 100%;
+}
+.force101-modal .screen {
+  background: no-repeat 0 25px;
+  height: 100%;
+  position: relative;
+}
+.force101-modal .screen li {
+  background: url(bullet.060afe77190597605935e28e201cb127.png) no-repeat 1px 7px;
+  margin: 14px 0;
+  padding-left: 12px;
+}
+.force101-modal .screen .section {
+  float: right;
+  height: 100%;
+  padding-left: 316px;
+}
+.force101-modal .screen .section .display-options-list {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 185px;
+}
+.force101-modal .screen .section .display-options-list li {
+  display: table;
+  padding-left: 50px;
+  background: none;
+  margin: 0;
+  height: 57px;
+}
+.force101-modal .screen .section .display-options-list li span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.force101-modal .navActions {
+  background: #fff;
+  bottom: 0;
+  font-size: 14px;
+  height: 50px;
+  left: 0;
+  line-height: 50px;
+  position: absolute;
+  width: 100%;
+}
+.force101-modal .navActions li {
+  display: inline;
+}
+.force101-modal .navActions a {
+  color: #888;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 124px;
+}
+.force101-modal .navActions a[rel=prev] {
+  border-right: 1px solid #d5d5d5;
+  float: left;
+  width: 123px;
+}
+.force101-modal .navActions a[rel=next],
+.force101-modal .navActions a[rel=done] {
+  background: #f64488;
+  color: #fff;
+  float: right;
+}
+.force101-modal .navActions a[rel=done] {
+  display: none;
+}
+.force101-modal .screen {
+  display: none;
+}
+.force101-modal.wearing-force .wearing-force {
+  display: block;
+}
+.force101-modal.display-options .display-options {
+  display: block;
+}
+.force101-modal.goals .goals {
+  display: block;
+}
+.force101-modal.tracking-sleep .tracking-sleep {
+  display: block;
+}
+.force101-modal.silent-alarms .silent-alarms {
+  display: block;
+}
+.force101-modal .navTabOn,
+.force101-modal.wearing-force .nav .basics a,
+.force101-modal.display-options .nav .basics a,
+.force101-modal.goals .nav .goals a,
+.force101-modal.tracking-sleep .nav .sleep a,
+.force101-modal.silent-alarms .nav .sleep a {
+  border-color: #55c2c2;
+  color: #000;
+}
+.force101-modal .screen.wearing-force {
+  background-image: url(bg-wearing-force.d85ad97003cc8d43e8aa3a7c2fff39b4.jpg);
+}
+.force101-modal .screen.display-options {
+  background-image: url(bg-display-options.6868cc4dd10a137bd271a4e1bf950dcb.png);
+}
+.force101-modal .screen.goals {
+  background-image: url(bg-goals.060ff409c9e5c4840f13a555f18fe6ca.png);
+  background-position: 0 53px;
+}
+.force101-modal .screen.tracking-sleep {
+  background-image: url(bg-tracking-sleep.18d60a787447921c3e854d7a90b75540.png);
+}
+.force101-modal .screen.silent-alarms {
+  background-image: url(bg-silent-alarms.e480cc1bcc669943159fecf34f95454b.png);
+}
+.force101-modal.wearing-force a[rel=prev] {
+  display: none;
+}
+.force101-modal.silent-alarms a[rel=next] {
+  display: none;
+}
+.force101-modal.silent-alarms a[rel=done] {
+  display: block;
+}
+
+/*# sourceMappingURL=app.layouts.baseMarketing.8.css.e328052172e89063764a7def963b9ab2.css.map*/

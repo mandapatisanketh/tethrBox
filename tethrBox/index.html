@@ -6,26 +6,336 @@
 	</title>
 	<script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./js/animations.js"></script>
 	<link rel="stylesheet" type="text/css" href="./bower_components/font-awesome/css/font-awesome.css"/>
 	<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<script>
-		$('#menuIcon').click(function(){
-			$('#sideBar').hide("slide", { direction: "left" }, 1000);
-		})
-	</script>
-
+	<link rel="stylesheet" id="main-styles-css" href="./css/nobly.css" type="text/css" media="all">
+<!-- 	<link rel="stylesheet" id="main-styles-css" href="./css/nobl.css" type="text/css" media="all"> -->
 </head>
 <body>
-	<div id="topNavContainer">
+
+	<!--_____________Top Navigation Bar_____________-->
+	<div id="topNavContainer" style="z-index: 10;">
 		<img id="logo" src="./images/jci logo black and white.png">
 		<div id="menuIcon">
 			<i style="font-size: 1.7vw;" class="fa fa-bars"></i>
 			<p style="font-size: 1vw;">Menu</p>
 		</div>
 		<div style="background-color: #202020; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
+		<i class="fa fa-search search"></i>
 	</div>
-<!-- 	<div id="sideBar" style="background-color: #202020; height: 53.5vw; width: 20%; float: right;">
-	</div> -->
+	<!--______________________________________________-->
+	<div>
+		
+	</div>
+	<!--___________________Side Bar____________________-->
+	<div id="sideBar" style="background-color: #202020; position: absolute; top: 0px; bottom: 0px; width: 20%; float: right; display: none;">
+	</div>
+	<!--_______________________________________________-->
+
+
+	<div id="firstImage" style="background-image: url(./images/buildings.jpg); width: 100%;">
+		<div style="text-align: center; color: white;">
+			<p style="font-size: 55px; padding-top: 10vw; font-family: Helvetica, Arial, sans-serif;">TECHNOLOGY & INSIGHTS THAT HELP THE WORLD PROGRESS</p>
+			<p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
+			<div class="btn abtMerger">
+				<span>ABOUT THE MERGER</span>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div id="txt1"  style="text-align: center; color: #08338F;">
+		<p style="font-size: 55px; padding-top: 0.8vw;">Welcome To A World</p>
+		<p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
+	</div>
+
+
+	<div id="about" style="background-color: #3ca0ad; padding-top: 3vw; width: 100%; display: inline-block;">
+		<div style="text-align: center; font-size: 35px;">
+			WHAT IS NOBLY?
+		</div>
+		<hr style="margin-left: 8vw; margin-right: 8vw; border-top: 1px solid #D3D3D3">
+		<div id="secondBackground">
+			<img src="./images/screens-layered.png" style="width: 42vw;">
+		</div>
+		<div style="text-align: left; margin-left: 8vw;">
+			<h2 class="goodWorld">Creating a</h2>
+			<h2 class="goodWorld">world of good.</h2>
+			<p style="color: #333;" class="desctiption">
+				Nobly is an app for iOS and Android that allows you to create and contribute to a chain-reaction of kindness. Each Deed tells a story, and with Nobly you can share that story with others and allow them to pay it forward with a Deed of their own.
+			</p>
+			<h6 style="font-weight: bold; color: black !important; padding-top: 2vw;">
+				WHO IS NOBLY FOR?
+			</h6>
+			<p style="color: #00606B" class="desctiption">Whether you’re a company interested in bolstering your culture and philanthropic footprint, or simply someone who wants to join a community of kindness, Nobly is for you.</p>
+		</div>
+	</div>
+
+
+	<!-- <div> -->
+<!-- 		<div class="row no-row" style="margin-top: 25px; margin-bottom: 25px; width: 100%">
+
+			<div class="col-xl-offset-1 col-lg-offset-1 col-md-offset-1 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div class="row no-row">
+					<div id="business" class="col-md-10 no-pad zoomer">
+						<div id="businessAnimate" style="height: 100%" class="row no-row">
+							<div class="col-md-12 no-pad">
+								<div class="col-md-offset-1 col-md-10">
+									<h3>Nobly For Business</h1>
+									<p>Bringing social Recognization to the Company</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div class="row no-row">
+					<div id="business1" class="col-md-offset-2 col-md-10 no-pad zoomer">
+						<div id="businessAnimate1" style="height: 100%" class="row no-row">
+							<div class="col-md-12 no-pad">
+								<div class="col-md-offset-1 col-md-10"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div> -->
+	<!-- </div> -->
+
+	<div class="at-content">
+
+
+
+
+<div class="container-wrap" style="padding-top: 0px; padding-bottom: 0px; opacity: 1;">
+	
+	<div class="container main-content">
+		
+		<div class="row">
+			
+						
+		
+<div id="fws_582d6ed569b8c" data-midnight="dark" data-bg-mobile-hidden="" class="wpb_row vc_row-fluid vc_row full-width-section standard_section  #2d3538 " style="padding: 0px 90px; margin-left: -90px; visibility: visible; z-index: 100;">
+<div class="col span_12 dark left">
+	<div class="vc_col-sm-12 wpb_column column_container col no-extra-padding instance-14" data-bg-cover="" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-hover-bg="" data-hover-bg-opacity="1" data-animation="" data-delay="0">
+			<div class="wpb_wrapper">
+					
+	
+
+
+	<div class="portfolio-wrap spaced">
+			
+			
+			
+		<div class="row portfolio-items masonry-items constrain-max-cols" data-ps="6" data-starting-filter="" data-col-num="elastic" style="transform: translateX(-81px); margin-left: 0px; width: 1340px; visibility: visible; position: relative; height: 374.781px;" instance="0">
+
+			<div class="col elastic-portfolio-item wide element feature  animated-in" data-project-cat="feature " data-project-color="#f8f8f8" data-title-color="" data-subtitle-color="" style="width: 670px; position: absolute; left: 0px; top: 0px; z-index: 0;">
+				<div class="inner-wrap animated" data-animation="fade_in_from_bottom">
+													
+					<div class="work-item style-5" data-custom-content="off" data-text-align="middle">
+								
+						<img class="sizer" src="./images/no-portfolio-item-wide.jpg" alt="Nobly For Business" style="height: auto;"><div class="parallaxImg-wrap">
+							<div class="parallaxImg" id="parallaxImg__0" style="height: 348px;">
+								<div class="parallaxImg-container" style="transform: perspective(1929px) rotateX(0deg) rotateY(0deg) translateZ(0px);">
+									<div class="parallaxImg-layers">
+										<div class="parallaxImg-rendered-layer" data-layer="0" style="transform: translateZ(0px);">
+											<div class="bg-img" style="background-image: url(&quot;./images/nobly-for-business-bg-1000x500.jpg&quot;);">
+											</div>
+										</div>
+										<div class="parallaxImg-rendered-layer" data-layer="1" style="transform: translateZ(78.5889px);">
+											<div class="bg-overlay" style="border-color: rgb(248, 248, 248);"></div>
+											<div class="work-meta">
+												<div class="inner">
+													<h4 class="title"> Nobly For Business</h4>
+													<p>Bringing social recognition to your company</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="parallaxImg-shadow" style="transform: perspective(1929px) rotateX(0deg) rotateY(0deg) translateZ(0px);"></div></div>											
+							<a href="http://www.nobly.com/portfolio/for-business/" style="display: inline;"></a>
+
+						</div>
+
+					</div><!--/inner-wrap-->
+				</div><!--/col-->
+
+				<div class="col elastic-portfolio-item wide element feature  animated-in" data-project-cat="feature " data-project-color="#988efb" data-title-color="" data-subtitle-color="" style="width: 670px; position: absolute; left: 670px; top: 0px; z-index: 33;">
+						
+					<div class="inner-wrap animated" data-animation="fade_in_from_bottom">
+						<div class="work-item style-5" data-custom-content="off" data-text-align="middle">
+								
+							<img class="sizer" src="./images/no-portfolio-item-wide.jpg" alt="Nobly Social" style="height: auto;">
+								<div class="parallaxImg-wrap">
+									<div class="parallaxImg" id="parallaxImg__1" style="height: 348px;">
+										<div class="parallaxImg-container" style="transform: perspective(1929px);">
+											<div class="parallaxImg-layers">
+												<div class="parallaxImg-rendered-layer" data-layer="0" style="transform: translateZ(0px);">
+													<div class="bg-img" style="background-image: url(&quot;./images/nobly-for-all-bg-1000x500.jpg&quot;);">
+													</div>
+												</div>
+												<div class="parallaxImg-rendered-layer" data-layer="1" style="transform: translateZ(78.5889px);">
+													<div class="bg-overlay" style="border-color: rgb(152, 142, 251);"></div>
+												<div class="work-meta">
+													<div class="inner">
+														<h4 class="title"> Nobly Social</h4>
+														<p>Send Thanks to anyone on iOS and Android</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="parallaxImg-shadow" style="transform: perspective(1929px) rotateX(0deg) rotateY(0deg) translateZ(0px);">
+								</div>
+							</div>											
+							<a href="http://www.nobly.com/portfolio/for-everyone/" style="display: inline;"></a>
+						</div><!--work-item-->	
+					</div><!--/inner-wrap-->
+				</div><!--/col-->
+			</div><!--/portfolio-->
+	   </div><!--/portfolio wrap-->
+	   </div>
+	   </div>
+	   </div>
+	   </div>
+
+	<div style="width: 100%">
+		<div class="row no-row">
+			<div class="col-xl-5 col-ld-5 col-md-5 col-sm-12 col-xs-12" style="height: 37vw; background-color: #65BC46">
+				<div class="row">
+					<div style="height: 31vw;">
+						<div style="margin-left: 3vw; margin-right: 3vw; padding-top: 6vw;">
+						<!--________news content 1________-->
+							<div id="newsContent1">
+								<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 1</div>
+								<div>
+									<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
+								</div>
+								<div style="color: #296813;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
+							</div>
+						<!--____________________________-->
+						<!--_______news content 2_______-->
+
+							<div id="newsContent2" style="display: none;">
+								<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 2</div>
+								<div>
+									<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
+								</div>
+								<div style="color: #296813;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
+							</div>
+						<!--____________________________-->
+
+						</div>
+					</div>
+					<div class="col-md-12" style="border-top: 2px solid #51A831; height: 6vw;">
+						<div class="row" style="height: 100%; text-align: center; color: white;">
+							<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #51A831;">
+								<i id="prev" style="font-size: 1.5vw; margin-top: 2.2vw; cursor: pointer;" class="fa fa-chevron-up"></i>
+							</div>
+							<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #51A831;">
+								<i id="next" style="font-size: 1.5vw; margin-top: 2.2vw; cursor: pointer;" class="fa fa-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-7 col-ld-7 col-md-7 col-sm-12 col-xs-12 news" style="height: 37vw; text-align: center;">
+				<div class="row">
+					<div class="col-md-12" style="height: 37vw; background-color: rgba(0,0,0,0.5);">
+						<div class="row">
+							<div style="height: 0.4vw; background-color: #fff; border-radius: 1vw; margin-top: 2vw;" class="col-md-offset-4 col-md-4"></div>
+						</div>
+						<div style="padding-top: 1vw;" class="row">
+							<p class="col-md-12" style="color: white; font-size: 2.3vw;">JOHNSON CONTROLS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row no-row" style="margin-top: 10px;">
+			<div class="col-xl-7 col-ld-7 col-md-7 col-sm-12 col-xs-12 news" style="height: 37vw; text-align: center;">
+				<div class="row">
+					<div class="col-md-12" style="height: 37vw; background-color: rgba(0,0,0,0.5);">
+						<div class="row">
+							<div style="height: 0.4vw; background-color: #fff; border-radius: 1vw; margin-top: 2vw;" class="col-md-offset-4 col-md-4"></div>
+						</div>
+						<div style="padding-top: 1vw;" class="row">
+							<p class="col-md-12" style="color: white; font-size: 2.3vw;">JOHNSON CONTROLS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-5 col-ld-5 col-md-5 col-sm-12 col-xs-12" style="height: 37vw; background-color: #2CBCB1">
+				<div class="row">
+					<div style="height: 31vw;">
+						<div style="margin-left: 3vw; margin-right: 3vw; padding-top: 6vw;">
+							<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE</div>
+							<div>
+								<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
+							</div>
+							<div style="color: #0E635D;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
+						</div>
+					</div>
+					<div class="col-md-12" style="border-top: 2px solid #1B9F95; height: 6vw;">
+						<div class="row" style="height: 100%; text-align: center; color: white;">
+							<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #1B9F95;">
+								<i style="font-size: 1.5vw; margin-top: 2.2vw;" class="fa fa-chevron-up"></i>
+							</div>
+							<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #1B9F95;">
+								<i style="font-size: 1.5vw; margin-top: 2.2vw;" class="fa fa-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="row no-row">
+		<div style=" margin-top: 10px; background-color: #E2E2E2; height: 10vw;" class="col-xs-12 col-sm-12 col-md-12 col-sm-12 col-xs-12">
+			
+		</div>
+	</div>
+	<div class="row no-row" style="margin-top: 20px;">
+		<div class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+			<h4>NOBLY</h4>
+			<p>Build a campaign of kindness and see how far one good deed can go.</p>
+		</div>
+		<div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
+			<h4>ON THE BLOG</h4>
+			<p>Build a campaign of kindness and see how far one good deed can go.</p>
+		</div>
+		<div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
+			<h4>TRENDING TOPICS</h4>
+			<div class="footer-trnding btn">Business</div>
+			<div class="footer-trnding btn">DailyRack</div>
+			<div class="footer-trnding btn">Events</div>
+			<div class="footer-trnding btn">Featured</div>
+			<div class="footer-trnding btn">Food for Thought</div>
+		</div>
+		<div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+			<h4>AROUND THE SITE</h4>
+			<a href="#about">Home</a>
+			<a href="#about">Home</a>
+		</div>
+	</div>
+	<div style="margin-top: 20px; background-color: #1F1F1F; height: 5vw;">
+		<p style="color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 Nobly. All rights reserved, Nobly LLC</p>
+	</div>
+
 </body>
 </html>

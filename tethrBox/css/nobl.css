@@ -1,0 +1,15 @@
+html .container-wrap,html .ascend .container-wrap {
+	    background-color: #f9f9f9;
+}
+body[data-bg-header="true"] .container-wrap {
+	margin-top: 0px!important;
+}
+body[data-bg-header="true"] .container-wrap {
+    /*margin-top: 0!important;*/
+    padding-top: 0!important;
+}
+.container-wrap {
+	
+    position: relative;
+    z-index: 10;
+}

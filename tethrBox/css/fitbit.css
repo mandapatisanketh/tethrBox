@@ -1,0 +1,29 @@
+#callout-data
+{display:none}
+#commerce-callout
+{background-color:#002a3a;text-align:center}
+#commerce-callout .commerce-callout-content
+{max-width:960px;margin:0 auto;padding:0 20px;position:relative}
+#commerce-callout .commerce-callout-content p
+{display:inline-block;font-family:'Proxima Nova Regular';
+-webkit-font-smoothing:antialiased;
+font-size:18px;line-height:26px;color:#fff;margin:27px 0
+}#commerce-callout .commerce-callout-content a
+{font-family:'Proxima Nova Bold';
+-webkit-font-smoothing:antialiased;
+font-size:16px;color:#ee3d6e;
+text-decoration:none;
+position:relative;left:10px;
+white-space:nowrap;overflow:hidden}
+#commerce-callout .commerce-callout-content a:after
+{font-family:FontAwesome;
+content:'\f138';
+display:inline-block;
+vertical-align:top;
+position:relative;
+top:1px;left:8px}
+#commerce-callout .commerce-callout-content a:hover
+{color:#fff}@media(max-width:767px)
+{#commerce-callout .commerce-callout-content p
+{font-size:14px;margin:10px 0}
+#commerce-callout .commerce-callout-content a{font-size:12px}}

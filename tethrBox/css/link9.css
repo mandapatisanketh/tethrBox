@@ -1,0 +1,27 @@
+.common-btn {
+	background: #d9d9d9;
+	border: 0;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+	font: bold 13px helvetica, sans-serif;
+	line-height: 1em;
+	padding: 12px 30px;
+}
+
+.common-btn.wide {
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.common-btn-submit {
+	background: #ed145b;
+	text-transform: uppercase;
+}
+
+.common-btn-submit:hover {
+	background: #cc104f;
+}
+/*# sourceMappingURL=weightsite.site.web.css.app.common.buttons.css.665bf48dd52e6407c7e5a4852ebdc392.css.map*/

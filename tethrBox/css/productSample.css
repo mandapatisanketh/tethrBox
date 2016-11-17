@@ -1,0 +1,54 @@
+.product-sub-nav {
+    height: 6em;
+    margin-bottom: -6em;
+}
+
+
+.product-sub-nav>div {
+    height: 6em;
+}
+.product-sub-nav>div {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.tb {
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.wrapper-content {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+.product-sub-nav .wrapper-content {
+    position: relative;
+    font-size: 0;
+    letter-spacing: -4px;
+    word-spacing: -4px;
+}
+.product-sub-nav.nav2 .wrapper-content {
+    display: table;
+}
+
+
+
+
+.product-sub-nav.nav2 .wrapper-content>.extra, .product-sub-nav.nav2 .wrapper-content>.nav-group, .product-sub-nav.nav2 .wrapper-content>.logo {
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0 !important;
+    float: none !important;
+}
+.product-sub-nav.nav2 .wrapper-content>* {
+    display: table-cell;
+}
+.product-sub-nav .wrapper-content>* {
+    vertical-align: middle;
+    font-size: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}

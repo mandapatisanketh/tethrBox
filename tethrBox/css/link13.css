@@ -1,0 +1,586 @@
+/* font-awesome fonts are too big and can't be base64 encoded the files themselves also dont end up on the cdn so they don't work
+@import '../css/font-awesome'*/
+.ie8 .wrapper-footer .ftr-mail-me {
+  height: 60px;
+  padding-top: 0;
+}
+.ie8 .wrapper-footer .ftr-mail-me form {
+  display: inline-block;
+  margin-left: 27px;
+}
+.ie8 .wrapper-footer .ftr-social ul li a i {
+  font-size: 25px;
+}
+.ie8 .wrapper-footer .ftr-links {
+  width: 960px;
+  border-top: 1px solid #e2e2e2;
+  margin: 20px auto 7px;
+}
+.ie8 .wrapper-footer .ftr-links ul {
+  margin: 12px 0 0;
+  text-align: left;
+  position: relative;
+  width: auto;
+}
+.ie8 .wrapper-footer .ftr-locale-holder {
+  margin: 0 auto;
+  width: 960px;
+}
+.ie8 .ftr-locale-holder {
+  margin: 0 auto;
+  width: 960px;
+}
+.ie8 .wrapper-footer .ftr-locale {
+  display: block;
+  position: relative;
+  float: right;
+  right: 15px;
+  top: -49px;
+  margin-bottom: -29px;
+}
+.ie8 .wrapper-footer .ftr-bottom {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  border: none;
+  padding-top: 0;
+}
+.ie8 .wrapper-footer .ftr-bottom ul {
+  width: auto;
+  margin: 0;
+  text-align: left;
+}
+.ie8 .wrapper-footer .ftr-bottom ul li {
+  margin: 0 3px;
+}
+@media (min-width: 768px) {
+  body[class*="locale-es_"] .wrapper-footer .ftr-bottom ul li.copyright {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  body[class*="locale-es_"] .wrapper-footer .ftr-bottom ul li.copyright {
+    text-align: left;
+  }
+}
+.wrapper-footer {
+  background-color: #fff;
+}
+.wrapper-footer .logo-type {
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+.wrapper-footer .logo-type a {
+  margin: 0;
+}
+.wrapper-footer .logo-type img {
+  vertical-align: middle;
+}
+.wrapper-footer .wrapper-footer-inner {
+  overflow: hidden;
+  padding-top: 20px;
+}
+.wrapper-footer .ftr-mail-me {
+  background-color: #e2e2e2;
+  height: 83px;
+  color: #939c9e;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 17px;
+  z-index: 1;
+}
+.wrapper-footer .ftr-mail-me .mail-icon {
+  display: inline-block;
+  width: 22px;
+  height: 30px;
+  background: #f00;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.wrapper-footer .ftr-mail-me form div {
+  width: 160px;
+  height: 30px;
+  background: #fff url(mail-icon.351f3cbec701c80d0bde9574ff84dac5.png) no-repeat 10px 11px;
+  border: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 0 35px;
+  position: relative;
+}
+.wrapper-footer .ftr-mail-me form div span.arrow {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  width: 11px;
+  height: 11px;
+  background: url(learn_more_arrow.f11e1ff429c4027725d8743e7a3c75fb.png);
+  background-size: 11px 11px;
+  cursor: pointer;
+}
+.ie8 .wrapper-footer .ftr-mail-me form div span.arrow {
+  background: none;
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/content/us/comparison/trackers/assets/images/learn_more_arrow.png, sizingMethod=scale);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/content/us/comparison/trackers/assets/images/learn_more_arrow.png, sizingMethod=scale);
+}
+.wrapper-footer .ftr-mail-me form div input {
+  font-family: "Proxima Nova Regular", Arial, sans-serif;
+  font-size: 14px;
+  border: 0;
+  background: #fff;
+  height: 30px;
+  line-height: 1;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.wrapper-footer .ftr-mail-me form div .placeholder {
+  font-size: 10px;
+  margin-top: 0;
+}
+.wrapper-footer .ftr-social ul,
+.wrapper-footer .ftr-links ul,
+.wrapper-footer .ftr-bottom ul {
+  text-align: center;
+}
+.wrapper-footer .ftr-social ul li,
+.wrapper-footer .ftr-links ul li,
+.wrapper-footer .ftr-bottom ul li {
+  display: inline-block;
+  text-align: center;
+}
+.wrapper-footer .ftr-locale {
+  text-align: center;
+  margin: 3px auto 28px;
+  position: relative;
+  font-family: "Proxima Nova Semibold", Arial, sans-serif;
+  font-size: 13px;
+  color: #939c9e;
+}
+.wrapper-footer .ftr-locale a {
+  font-family: "Proxima Nova Regular", Arial, sans-serif;
+  text-decoration: none;
+  color: #939c9e;
+}
+.wrapper-footer .ftr-locale a:hover {
+  color: #4ac0c0;
+}
+.wrapper-footer .ftr-locale .globe-icon {
+  display: inline-block;
+  background: url(globe-icon.188cb3136757715d7b2d5353c6b1d179.png) no-repeat left top;
+  position: relative;
+  width: 17px;
+  height: 21px;
+  margin-right: 5px;
+  top: 8px;
+  opacity: 0.4;
+}
+.wrapper-footer .ftr-social {
+  position: relative;
+}
+.wrapper-footer .ftr-social ul li {
+  margin-left: 20px;
+}
+.wrapper-footer .ftr-social ul li.twitter {
+  margin-left: 22px;
+}
+.wrapper-footer .ftr-social ul li.blog {
+  margin-left: 13px;
+  position: relative;
+  top: -2px;
+}
+.wrapper-footer .ftr-social ul li:first-child {
+  margin-left: 0;
+}
+.wrapper-footer .ftr-social ul li.weixin a i,
+.wrapper-footer .ftr-social ul li.weibo a i {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper-footer .ftr-social ul li a {
+  color: #939c9e;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.wrapper-footer .ftr-social ul li a:hover {
+  color: #4ac0c0;
+}
+.wrapper-footer .ftr-social ul li a i {
+  font-size: 19px;
+}
+.wrapper-footer .ftr-links ul {
+  width: 265px;
+  margin: 21px auto 0;
+}
+.wrapper-footer .ftr-links ul li a {
+  color: #102429;
+  font-family: "Proxima Nova Regular", Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0 8px;
+  line-height: 39px;
+}
+.wrapper-footer .ftr-links ul li a:hover {
+  color: #4ac0c0;
+}
+.wrapper-footer .ftr-links ul .locale {
+  display: none;
+}
+.wrapper-footer .ftr-bottom {
+  border-top: 1px solid #e2e2e2;
+  padding: 22px 0;
+  clear: both;
+}
+.wrapper-footer .ftr-bottom ul {
+  width: 212px;
+  margin: 0 auto;
+}
+.wrapper-footer .ftr-bottom ul li {
+  font-family: "Proxima Nova Regular", Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 6px;
+  line-height: 25px;
+}
+.wrapper-footer .ftr-bottom ul li.copyright {
+  color: #939c9e;
+}
+.wrapper-footer .ftr-bottom ul li a {
+  color: #576569;
+  text-decoration: none;
+}
+.wrapper-footer .ftr-bottom ul li a:hover {
+  color: #4ac0c0;
+}
+.wrapper-footer .ftr-mail-me .subscription-error-message {
+  color: #f34e7b;
+  font-family: "Proxima Nova Regular";
+  font-size: 12px;
+  left: 0;
+  position: absolute;
+  text-transform: none;
+  top: 35px;
+  white-space: nowrap;
+}
+.wrapper-footer .ftr-mail-me .subscription-success-message {
+  line-height: 60px;
+}
+@media (min-width: 768px) {
+  .wrapper-footer .ftr-mail-me {
+    height: 60px;
+    padding-top: 0px;
+    transition: height 0.5s ease-out;
+    -webkit-transition: height 0.5s ease-out;
+  }
+  .wrapper-footer .ftr-mail-me .subscription-error-message {
+    top: 41px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+  }
+  .wrapper-footer .ftr-mail-me form {
+    display: inline-block;
+    margin-left: 27px;
+  }
+  .wrapper-footer .ftr-mail-me.error {
+    height: 80px;
+  }
+  .wrapper-footer .ftr-mail-me.error .subscription-error-message {
+    opacity: 1;
+  }
+  .wrapper-footer .ftr-social ul li a {
+    font-size: 19px;
+  }
+  .wrapper-footer .ftr-social ul li a i {
+    font-size: 25px;
+  }
+  .wrapper-footer .ftr-social ul li.twitter {
+    margin-left: 45px;
+  }
+  .wrapper-footer .ftr-social ul li.instagram {
+    margin-left: 38px;
+  }
+  .wrapper-footer .ftr-social ul li.blog {
+    margin-left: 31px;
+    top: -3px;
+  }
+  .wrapper-footer .ftr-social ul li.google-plus,
+  .wrapper-footer .ftr-social ul li.youtube,
+  .wrapper-footer .ftr-social ul li.pinterest {
+    margin-left: 40px;
+  }
+  .wrapper-footer .ftr-links ul {
+    width: auto;
+  }
+  .wrapper-footer .ftr-links ul li a {
+    margin: 0 10px;
+    line-height: 24px;
+  }
+  .wrapper-footer .ftr-locale {
+    margin-top: 6px;
+  }
+  .wrapper-footer .ftr-bottom ul {
+    width: auto;
+  }
+  .wrapper-footer .ftr-bottom ul li {
+    margin: 0 3px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper-footer .ftr-links {
+    width: 960px;
+    border-top: 1px solid #e2e2e2;
+    margin: 20px auto 7px;
+  }
+  .wrapper-footer .ftr-links ul {
+    margin: 12px 0 0;
+    text-align: left;
+    position: relative;
+  }
+  .wrapper-footer .ftr-links ul:before {
+    content: url(109d9919a44b792ebe64e520c3b57dc2.svg);
+    width: 65px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 0;
+    margin-right: 19px;
+  }
+  .wrapper-footer .ftr-links .locale {
+    float: right;
+    display: inline-block;
+    margin: 0;
+    line-height: 24px;
+    font-family: "Proxima Nova Semibold", Arial, sans-serif;
+    font-size: 13px;
+    color: #939c9e;
+  }
+  .wrapper-footer .ftr-links .locale a {
+    font-family: "Proxima Nova Regular", Arial, sans-serif;
+    color: #939c9e;
+    cursor: pointer;
+  }
+  .wrapper-footer .ftr-links .locale .globe-icon {
+    display: inline-block;
+    background: url(globe-icon.188cb3136757715d7b2d5353c6b1d179.png) no-repeat left top;
+    position: relative;
+    width: 27px;
+    height: 27px;
+    top: 8px;
+    opacity: 0.4;
+  }
+  .wrapper-footer .ftr-locale-holder {
+    margin: 0 auto;
+    width: 960px;
+  }
+  .wrapper-footer .ftr-locale {
+    display: block;
+    position: relative;
+    float: right;
+    right: 15px;
+    top: -41px;
+    margin-bottom: -29px;
+  }
+  .wrapper-footer .ftr-bottom {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    border: none;
+    padding-top: 0;
+  }
+  .wrapper-footer .ftr-bottom ul {
+    margin: 0;
+    text-align: left;
+  }
+}
+.locale-zh_CN .ftr-social a,
+.locale-zh_TW .ftr-social a {
+  cursor: pointer;
+}
+.locale-zh_CN .ftr-social i.img-icon,
+.locale-zh_TW .ftr-social i.img-icon {
+  display: inline-block;
+  height: 29px;
+  width: 33px;
+  background: url(footer-china-social-icons.eb202fb61ad34ebdd614802e7c6408fd.png);
+  background-size: 66px;
+}
+.locale-zh_CN .ftr-social .weixin i,
+.locale-zh_TW .ftr-social .weixin i {
+  background-position: 0 0;
+}
+@media (min-width: 1199px) {
+  .locale-zh_CN .ftr-social .weixin a:hover i,
+  .locale-zh_TW .ftr-social .weixin a:hover i {
+    background-position: -33px 0;
+  }
+}
+.locale-zh_CN .ftr-social .weibo i,
+.locale-zh_TW .ftr-social .weibo i {
+  background-position: 0 -29px;
+}
+@media (min-width: 1199px) {
+  .locale-zh_CN .ftr-social .weibo a:hover i,
+  .locale-zh_TW .ftr-social .weibo a:hover i {
+    background-position: -33px -29px;
+  }
+}
+.locale-zh_CN .ftr-social .weixin-popup-content,
+.locale-zh_TW .ftr-social .weixin-popup-content {
+  display: none;
+}
+.locale-zh_CN .weixin-popup,
+.locale-zh_TW .weixin-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow-y: auto;
+  outline: 0;
+}
+.locale-zh_CN .weixin-popup-overlay,
+.locale-zh_TW .weixin-popup-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  opacity: 0.5;
+  background-color: #000;
+}
+.locale-zh_CN .weixin-popup .weixin-popup-content,
+.locale-zh_TW .weixin-popup .weixin-popup-content {
+  position: relative;
+  margin: auto;
+  max-width: 379px;
+  height: 100%;
+  text-align: center;
+  display: table;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .locale-zh_CN .weixin-popup .weixin-popup-content,
+  .locale-zh_TW .weixin-popup .weixin-popup-content {
+    max-width: 300px;
+  }
+}
+.locale-zh_CN .weixin-popup .weixin-popup-content > div,
+.locale-zh_TW .weixin-popup .weixin-popup-content > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.locale-zh_CN .weixin-popup .weixin-popup-content > div > div,
+.locale-zh_TW .weixin-popup .weixin-popup-content > div > div {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 43px 30px 30px;
+  position: relative;
+}
+.locale-zh_CN .weixin-popup .weixin-popup-close,
+.locale-zh_TW .weixin-popup .weixin-popup-close {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #999;
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  border-radius: 50%;
+  line-height: 16px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+}
+.locale-zh_CN .weixin-popup .weixin-popup-close:before,
+.locale-zh_TW .weixin-popup .weixin-popup-close:before {
+  content: '\00D7';
+}
+.locale-zh_CN .weixin-popup .weixin-popup-close:hover,
+.locale-zh_TW .weixin-popup .weixin-popup-close:hover {
+  background: #000;
+}
+.locale-zh_CN .weixin-popup .weixin-popup-content span,
+.locale-zh_TW .weixin-popup .weixin-popup-content span {
+  font-size: 26px;
+  font-family: 'Proxima Nova Bold', Arial, sans-serif;
+  margin: 20px 0 18px 0;
+  display: block;
+  color: #000;
+}
+.locale-zh_CN .weixin-popup img,
+.locale-zh_TW .weixin-popup img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .locale-zh_TW .ftr-social ul li {
+    margin-left: 10px !important;
+  }
+  .locale-zh_TW .ftr-social ul li:first-child {
+    margin-left: 0 !important;
+  }
+}
+.locale-zh_TW .ftr-social i.img-icon {
+  height: 25px;
+  width: 31px;
+  background: url(footer-taiwan-social-icons.755c51999f986617ade8d82e3e846996.png);
+  background-size: 108px;
+}
+@media (max-width: 767px) {
+  .locale-zh_TW .ftr-social i.img-icon {
+    height: 19px;
+    width: 23px;
+  }
+}
+.locale-zh_TW .ftr-social .weixin i {
+  background-position: 0 0;
+}
+.locale-zh_TW .ftr-social .weixin a:hover i {
+  background-position: -31px 0;
+}
+@media (max-width: 767px) {
+  .locale-zh_TW .ftr-social .weixin i {
+    background-position: -62px 0;
+  }
+  .locale-zh_TW .ftr-social .weixin a:hover i {
+    background-position: -85px 0;
+  }
+}
+.locale-zh_TW .ftr-social .line i {
+  background-position: 0 -25px;
+}
+.locale-zh_TW .ftr-social .line a:hover i {
+  background-position: -31px -25px;
+}
+@media (max-width: 767px) {
+  .locale-zh_TW .ftr-social .line i {
+    background-position: -62px -19px;
+  }
+  .locale-zh_TW .ftr-social .line a:hover i {
+    background-position: -85px -19px;
+  }
+}
+@media (min-width: 768px) {
+  body[class*="locale-de"] .wrapper-footer .ftr-links ul li a,
+  body[class*="locale-es"] .wrapper-footer .ftr-links ul li a {
+    margin: 0 8px;
+  }
+}
+
+/*# sourceMappingURL=app.layouts.baseMarketing.2016Footer.css.9d29dc16bea656152d252e6a7c051032.css.map*/

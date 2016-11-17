@@ -1,0 +1,145 @@
+
+
+/*****************************************************************************
+ *
+ *	Core Elements and Standard Layout
+ *
+ *****************************************************************************/
+
+.common-form .cb {
+	margin: 0 4px 0 0;
+}
+
+.common-form .field {
+	background: #fbfbfb;
+	color: #666;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font: 16px/21px "Proxima Nova Regular", sans-serif;
+    margin: 0;
+    padding: 6px 8px;
+    width: 100%;
+    
+    -moz-transition: border-color 0.5s;
+	-webkit-transition: border-color 0.5s;
+  	transition: border-color 0.5s;
+}
+
+.common-form .field,
+.common-form .field-group .ui-selectmenu {
+	border: 4px solid #efefef;
+    border-radius: 8px;
+    -moz-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.common-form .field-group .ui-selectmenu-icon {
+	background: url(btn_select_menu2.5efcca3c2661130565857ed7386d7f42.png) no-repeat 0 50%;
+}
+
+.common-form .field-group > dd {
+	margin-bottom: 10px;
+}
+
+.common-form .field-group-label {
+	color: #4cbfbf;
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.common-form .field-label {
+	color: #666;
+	display: block;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+
+/*****************************************************************************
+ *
+ *	Field Modifiers & Validation
+ *
+ *****************************************************************************/
+ 
+/* Form-level validation */
+
+.common-form form.validate-enabled.failure .common-btn-submit { /* grayed-out submit button in non-validated forms */
+	background-color: #d9d9d9;
+	cursor: default;
+}
+ 
+/* Field-level validation */
+ 
+.common-form .field:focus {
+	border-color: #4cbfbf;
+}
+
+.common-form .field.validate {
+	background-repeat: no-repeat;
+	padding-right: 30px;
+}
+
+.common-form .field.validate.failure {
+	border-color: #fb7464;
+}
+
+.common-form .field.validate.success {
+	background-image: url(icons_field_validation.fdab4b9ecb729b0ade4e99842b9940e6.png);
+	background-position: 98% 50%;
+	border-color: #b7db70;
+}
+
+/* Backwards compatible error state */
+
+.common-form .field.error {
+	border-width: 4px !important;
+}
+
+/*****************************************************************************
+ *
+ *	Characters Remaining Module
+ *
+ *****************************************************************************/
+
+.module-chars-remaining {
+	color: #999;
+}
+
+.module-chars-remaining.warning {
+	color: #c00;
+}
+
+.module-chars-remaining.exceeded {
+	color: #f00;
+}
+
+/*****************************************************************************
+ *
+ *	Miscellaneous
+ *
+ *****************************************************************************/
+
+.common-form .field-group > .hasToggle > .field-label,
+.common-form .field-group > .hasToggle > .fitbitToggle {
+	float: left;
+}
+
+.common-form .field-group .fitbitToggle > div {
+	background: url(icon_menu_toggle.f06b1fb60b6a599a48834c9b1db4dd0c.png) no-repeat 100% 50%;
+	color: #4cbfbf;
+	font-size: 11px;
+	line-height: inherit;
+	margin-left: 5px;
+	padding-right: 10px;
+}
+
+.common-form .field-group .toggle {
+	visibility: hidden;
+}
+
+/*# sourceMappingURL=weightsite.site.web.css.app.common.forms.css.6894034b748b96460f8816ab4e007475.css.map*/

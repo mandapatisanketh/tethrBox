@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "Fitbit Icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  src: url(552f2c8e1bc1457f4e55bc51fcb093c7.eot);
+  src: url(552f2c8e1bc1457f4e55bc51fcb093c7.eot#iefix) format("embedded-opentype"), url(05e164e8b2cecd653d2442066cbc129d.woff) format("woff"), url(db65a1c34e9c5de3941bf2974d2edb87.ttf) format("truetype"), url(f5d5a97d842b89a53333ed8031995294.svg#FibitIcons) format("svg");
+}
+.size-a {
+  font-size: 60px;
+}
+.size-b {
+  font-size: 50px;
+}
+.size-c {
+  font-size: 40px;
+}
+.size-d {
+  font-size: 34px;
+}
+.size-e {
+  font-size: 30px;
+}
+.size-f {
+  font-size: 20px;
+}
+.size-g {
+  font-size: 18px;
+}
+.size-h {
+  font-size: 25px;
+}
+.fitglyph {
+  font-family: 'Fitbit Icons';
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fitglyph-size100:before,
+.fitglyph-water-full:before {
+  content: "\e600";
+}
+.fitglyph-water-half-only:before {
+  content: "\e601";
+}
+.fitglyph-size0:before,
+.fitglyph-glass-outline:before {
+  content: "\e602";
+}
+/* footsteps */
+.fitglyph-weeklyActivity:before,
+.fitglyph-tripleWideActivity:before,
+.fitglyph-goalTile:before,
+.fitglyph-steps:before {
+  content: "\e603";
+}
+/* running man */
+.fitglyph-exercise:before {
+  content: "\e604";
+}
+/* lightning bolt */
+.fitglyph-activeMinutes:before {
+  content: "\e605";
+}
+/* burning flame */
+.tile.calories .goal .icon-glyph .fitglyph:before,
+.fitglyph-calories:before,
+.fitglyph-calories-burned:before {
+  content: "\e606";
+}
+.fitglyph-distance:before {
+  content: "\e607";
+}
+.fitglyph-floors:before {
+  content: "\e608";
+}
+.fitglyph-heart-solid:before {
+  content: "\e609";
+}
+.fitglyph-weight:before {
+  content: "\e60a";
+}
+/* gear with open circle in center (no dot) */
+.fitglyph-settings-alt:before {
+  content: "\e60b";
+}
+.fitglyph-foodPlanCrossed:before {
+  content: "\e60c";
+}
+.fitglyph-foodPlan:before {
+  content: "\e60d";
+}
+.fitglyph-sleep:before {
+  content: "\e60e";
+}
+.fitglyph-restingHeartRate:before {
+  content: "\e60f";
+}
+.fitglyph-badges:before {
+  content: "\e610";
+}
+/*  tennis shoe */
+.tile.trainer .goal .icon-glyph .fitglyph:before,
+.fitglyph-premium:before,
+.fitglyph-trainer:before {
+  content: "\e611";
+}
+.fitglyph-cwProgram:before {
+  content: "\e612";
+}
+.fitglyph-size50:before,
+.fitglyph-water:before {
+  content: "\e613";
+}
+.fitglyph-edit:before {
+  content: "\e614";
+}
+.fitglyph-expand:before {
+  content: "\e615";
+}
+.fitglyph-remove:before {
+  content: "\e616";
+}
+.fitglyph-calZone .path1:before {
+  content: "\e617";
+  color: $darkestgray;
+}
+.fitglyph-calZone .path2:before {
+  content: "\e618";
+  margin-left: -1.0087890625em;
+  color: $darkestgray;
+}
+.fitglyph-calZone .path3:before {
+  content: "\e619";
+  margin-left: -1.0087890625em;
+  color: $white;
+}
+.fitglyph-leaderboard:before {
+  content: "\e61a";
+}
+.fitglyph-intradayActivities:before {
+  content: "\e61b";
+}
+.fitglyph-calendar:before {
+  content: "\e61c";
+}
+.fitglyph-wellness-star:before {
+  content: "\e61d";
+}
+.fitglyph-wellness-team:before {
+  content: "\e61e";
+}
+.fitglyph-arrow-left:before {
+  content: "\e61f";
+}
+.fitglyph-arrow-right:before {
+  content: "\e620";
+}
+.fitglyph-check:before {
+  content: "\e621";
+}
+.fitglyph-star:before {
+  content: "\e622";
+}
+.fitglyph-message:before {
+  content: "\e623";
+}
+.fitglyph-cheer:before {
+  content: "\e624";
+}
+.fitglyph-cheered:before {
+  content: "\e625";
+}
+.fitglyph-taunt:before {
+  content: "\e626";
+}
+.fitglyph-taunted:before {
+  content: "\e627";
+}
+/* gear with dot in center */
+.fitglyph-show-settings:before {
+  content: "\e628";
+}
+.fitglyph-circle-check:before {
+  content: "\e629";
+}
+.fitglyph-circle-ex:before {
+  content: "\e62a";
+}
+.fitglyph-expand-tile:before {
+  content: "\e62b";
+}
+.fitglyph-close-settings:before {
+  content: "\e62c";
+}
+.fitglyph-add-friend:before {
+  content: "\e62d";
+}
+/* social icons begin */
+.fitglyph-pinterest:before {
+  content: "\e62e";
+}
+.fitglyph-twitter:before {
+  content: "\e62f";
+}
+.fitglyph-facebook:before {
+  content: "\e630";
+}
+.fitglyph-google-plus:before {
+  content: "\e631";
+}
+.fitglyph-youtube:before {
+  content: "\e632";
+}
+.fitglyph-instagram:before {
+  content: "\e633";
+}
+.fitglyph-setting_applications:before {
+  content: "\e900";
+}
+.fitglyph-settings_wellness:before {
+  content: "\e901";
+}
+.fitglyph-setting_exercise:before {
+  content: "\e902";
+}
+.fitglyph-setting_export:before {
+  content: "\e903";
+}
+.fitglyph-setting_help:before {
+  content: "\e904";
+}
+.fitglyph-setting_hr:before {
+  content: "\e905";
+}
+.fitglyph-setting_notifications:before {
+  content: "\e906";
+}
+.fitglyph-setting_personal:before {
+  content: "\e907";
+}
+.fitglyph-setting_privacy:before {
+  content: "\e908";
+}
+.fitglyph-setting_sleep:before {
+  content: "\e909";
+}
+.fitglyph-setting_weight:before {
+  content: "\e90a";
+}
+.fitglyph-settings_placeholder_cogs:before {
+  content: "\e90b";
+}
+.fitglyph-ic_settings:before {
+  content: "\e90c";
+}
+.fitglyph-share:before {
+  content: "\e90d";
+}
+
+/*# sourceMappingURL=app.fonts.icons.css.90dc370d5529e29553893b910fe66101.css.map*/
