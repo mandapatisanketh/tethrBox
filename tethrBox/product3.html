@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="js no-touch backgroundsize cssanimations csstransforms csstransforms3d csstransitions desktop-view not-ie7-8 webkit chrome skrollr skrollr-desktop" lang="en"><!--<![endif]--><head data-js-error="Script error.">
+<html  lang="en"><!--<![endif]--><head data-js-error="Script error.">
 <title>
         Tethr Box Technologies
     </title>
@@ -12,11 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./css/fitbit.css">
     <link rel="stylesheet" type="text/css" href="./css/fitbit1.css">
     <link rel="stylesheet" type="text/css" href="./css/fitbit2.css">
-    <script>
-        $('#menuIcon').click(function(){
-            $('#sideBar').hide("slide", { direction: "left" }, 1000);
-        })
-    </script>
+   <script type="text/javascript" src="./js/animations.js"></script>
      
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -51,25 +47,50 @@
     <script src="http://cdn.optimizely.com/js/249008631.js"></script>      
     <script type="text/javascript" src="./js/fitbit3.js" charset="utf-8"></script>
 
-     <link rel="stylesheet" type="text/css" href="./css/header.css" >
-    <link rel="stylesheet" type="text/css" href="https://assets.fitbit.com/production/weightsite.site.web.css.font-awesome.css.769d29b69445a89c18e0e5d3cafd3fe6.css" charset="utf-8">
-        
+     <!-- <link rel="stylesheet" type="text/css" href="./css/header.css" > -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://assets.fitbit.com/production/weightsite.site.web.css.font-awesome.css.769d29b69445a89c18e0e5d3cafd3fe6.css" charset="utf-8">
+         -->
    
 
-    <body class="galileo   fb-body footerup  droid  locale-en_IN" data-user-id="" data-user-name="" data-date="" data-clock="24" data-height-system="" data-weight-system="" data-start-day-of-week="" style="height: 9019px;">
+    <body  data-user-id="" data-user-name="" data-date="" data-clock="24" data-height-system="" data-weight-system="" data-start-day-of-week="" style="height: 9019px;">
     <a name="top"></a>
-    <header class="wrapper-header ">
-    	<div id="topNavContainer">
-    		<img id="logo" src="./images/jci logo black and white.png">
-    		<div id="menuIcon">
-    			<i style="font-size: 1.7vw;" class="fa fa-bars"></i>
-    			<p style="font-size: 1vw;">Menu</p>
-    		</div>
-    		<div style="background-color: #202020; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
-    	</div>
-    </header>
+    <!--___________________Side Bar____________________-->
+    <div id="sideBar" style="position: absolute; top: 6vw; bottom: 0px; display: none; width: 100%; z-index: 9;" class="row">
+        <div class="col-md-10" style="height: 100%; background-color: #000; opacity: 0.5;"></div>
+        <div class="col-md-2" style="height: 100%; background-color: #202020;">
+            <a class="btn" href="./product3.html">
+                Product-1
+            </a>
+            <a class="btn" href="./product3.html">
+                Product-2
+            </a>
+        </div>
+    </div>
+    <!--_______________________________________________-->
+    <div id="firstImage" style="background-image: url(./images/buildings.jpg); width: 100%;">
+
+        <header class="wrapper-header ">
+            <div id="topNavContainer" style="z-index: 10; border-bottom: 2px solid #202020;">
+                <img id="logo" src="./images/jci logo black and white.png">
+                <div id="menuIcon">
+                    <i style="font-size: 1.7vw;" class="fa fa-bars"></i>
+                    <p style="font-size: 1vw;">Menu</p>
+                </div>
+                <div style="background-color: #202020; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
+            </div>
+        </header>
+   
+        <div style="text-align: center; color: white;">
+            <p style="font-size: 55px; padding-top: 10vw; font-family: Helvetica, Arial, sans-serif;">TECHNOLOGY & INSIGHTS THAT HELP THE WORLD PROGRESS</p>
+            <p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
+            <div class="btn abtMerger">
+                <span>ABOUT THE MERGER</span>
+            </div>
+        </div>
+    </div>
     
     <div id="container" class=" ">
+
 		<nav id="sitenav" class="">
 			<div class="noSubNav"></div>        
 		</nav>
@@ -95,8 +116,9 @@
 			</div></div></div>
 		</nav>
         
-
-        <div id="product-info" class="tb centered middle max-height header-indent product-info" style="min-height: 740px;"><div>
+        
+        
+        <!-- <div id="product-info" class="tb centered middle max-height header-indent product-info" style="min-height: 740px;"><div>
             <div data-top="top: 0%" data-top-bottom="top: 50%" class="bgs r-c init skrollable skrollable-after" data-ration="1.775625504" style="top: 50%;"><div>
               <img src="./assets/image1.jpg" class="js-load-img"  data-default="./assets/image1.jpg">
             </div></div>
@@ -119,7 +141,7 @@
                 <h2>
                     <div class="ibi">
                        <!--  <img class="v" src="/content/assets/charge/images/charge-white.svg" alt="Charge"> -->
-                        <img class="r" src="http://static0.fitbit.com/simple.b-cssdisabled-png.he98628246cbe984749a896ca85410579.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fcharge-white.png" alt="Charge">
+                   <!--      <img class="r" src="http://static0.fitbit.com/simple.b-cssdisabled-png.he98628246cbe984749a896ca85410579.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fcharge-white.png" alt="Charge">
                     </div>
                 </h2>
 
@@ -137,16 +159,16 @@
                     
                     
                 </p>
-            </div>
+            </div> -->
 
-        </div></div>
-
+        <!-- </div></div> --> 
+        <!-- Features block -->
         <div id="features-group" class="active">
 
             <div class="tb middle max-height switch-manager-features product-features" style="min-height: 800px;"><div>
 
                 <div class="bgs c-c init w" data-ration="1.554726368"><div>
-                    <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h23ee78f68e82ead128305901b19e2dd6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-02-bg.jpg" class="js-load-img" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hf22c158ba0a3c21af49dc2476c7255eb.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-02-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h23ee78f68e82ead128305901b19e2dd6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-02-bg.jpg">
+                    <img src="./assets/featureBackground.jpg" class="js-load-img" data-mobile="./assets/featureBackground.jpg" data-default="./assets/featureBackground.jpg">
                 </div></div>
 
                 <a style="z-index: 3; opacity: 0;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-after" href="#features">
@@ -163,32 +185,32 @@
                     <h2>An advanced wristband to elevate every day.</h2>
                     
                     
-                    <div data-color="black" class="features-content switching-effect" data-feature="sleep">
+                    <!-- <div data-color="black" class="features-content switching-effect" data-feature="sleep">
 
                         <div class="products">
                             
 
-                            <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.h490f77144faaa514233d15ccbef3c03f.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblack.png" class="js-load-img active" data-color="black" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-png.h8912f6dcf3433f4b89b06e8327404926.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblack-mobile.png" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.h490f77144faaa514233d15ccbef3c03f.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblack.png">
-                            <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h84c0c7dfe2f592aa5afe28d8779a8edf.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fslate.png" class="js-load-img" data-color="slate" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-png.h20d0b175b03ec458862c7d8f4da07669.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fslate-mobile.png" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h84c0c7dfe2f592aa5afe28d8779a8edf.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fslate.png">
-                            <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h5698ed7281346a98f2bdd9c34cb2d864.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblue.png" class="js-load-img" data-color="blue" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-png.hcfb6c3bb75f32584fcfffeed32b7618a.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblue-mobile.png" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h5698ed7281346a98f2bdd9c34cb2d864.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fblue.png">
-                            <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.he6ac218b24d278277512213a15d55b55.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fburgundy.png" class="js-load-img" data-color="burgundy" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-png.h51726be06ce2f289e9bb0cea806f1988.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fburgundy-mobile.png" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.he6ac218b24d278277512213a15d55b55.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fburgundy.png">
+                            <img src="./assets/watch1.png" class="js-load-img active" data-color="black" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="slate" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="blue" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="burgundy" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
                             
                         </div>
 
                         <div class="screen">
-                            <img data-feature="allDayActivity" src="http://static0.fitbit.com/simple.b-cssdisabled-gif.h5c72ae7e3f47c7f0ef21656884f6c0fe.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F01-All-Day_2X.gif" class="">
-                            <img data-feature="watch" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h6e7a85078d1fdc9c6d8a582ae9f6dc48.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F02-Watch_2X.gif" class="">
-                            <img data-feature="caller" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h9570b1128a23b717fc5252c5ba62691a.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F03-Caller-ID_2X.gif" class="">
-                            <img data-feature="musicControl" src="http://static0.fitbit.com/simple.b-cssdisabled-gif.h70fc56aa89e88aa9a0932567c45d8c57.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2FBattery%402x.gif" class="">
-                            <img data-feature="sleep" src="http://static1.fitbit.com/simple.b-cssdisabled-png.hff1d11730d1f4ab9e657d51578f6739e.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F04-Sleep_2X.png" class="active">
-                            <img data-feature="wifi" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h4ddf7c51e9046f3e216ee7190273c134.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F05-Syncing_2X.gif" class="">
+                            <img data-feature="allDayActivity" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="watch" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="caller" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="musicControl" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="sleep" src="./assets/gifFile1.gif" class="active">
+                            <img data-feature="wifi" src="./assets/gifFile1.gif" class="">
                         </div>
 
                         <img class="wifi" data-feature="wifi" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.hd6057788f1e8963a424c1cfa0ac3b248.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fsyncs.gif">
 
                     </div>
-
-                    <div class="clearfix switch-group features">
+            -->
+                 <div class="clearfix switch-group features">
                         <ul>
                             
                             
@@ -235,7 +257,7 @@
                     </div>
 
                     
-                        <ul class="switch-group colors">
+                       <!--  <ul class="switch-group colors">
                             
                             
                                 <li><a data-switch-order="1" class="switch active" href="javascript:void(0);" data-color="black" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'black', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Black</i></b></span></a></li>
@@ -243,11 +265,11 @@
                                 <li><a data-switch-order="3" class="switch" href="javascript:void(0);" data-color="blue" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'blue', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Blue</i></b></span></a></li>
                                 <li><a data-switch-order="4" class="switch" href="javascript:void(0);" data-color="burgundy" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'burgundy', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Burgundy</i></b></span></a></li>
                             
-                        </ul>
+                        </ul> -->
                     
                 </div>
 
-            </div></div>
+        </div></div>
 
             <div class="slide-group" data-nav-mousewheel="true">
 
@@ -260,14 +282,8 @@
 
                     <div class="bgs c-c init w canvas-visible" data-ration="1.554726368"><div>
 
-                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h659dd9960113317ce143c103c83898a6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-01-bg.jpg" class="js-load-img" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h61955d211ff1d75f4d3d079b85a4d6d6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-01-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h659dd9960113317ce143c103c83898a6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-01-bg.jpg">
-                        <div class="canvas" style="height: 828px;">
-                            <div class="note note--charge-steps"><div><div style="height: 4.4em; padding: 0">
-                                <div class="tb centered middle"><div>
-                                    <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h4e00f02224080bf90cd910e28bb68019.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fsteps.png" style="width: 3.2em;">
-                                </div></div>
-                            </div></div></div>
-                        </div>
+                        <img src="./assets/slide1.jpg" class="js-load-img" data-mobile="./assets/slide1.jpg" data-default="./assets/slide1.jpg">
+                        
                     </div></div>
 
                     <div class="cont">
@@ -291,14 +307,8 @@
 
                     <div class="bgs r-c init w canvas-visible" data-ration="1.554726368"><div>
 
-                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hfe82af5c4af838a86de1f1315361cb5f.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-02-bg.jpg" class="js-load-img" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.hbdc47976708d6086ced613a6b58efd66.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-02-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hfe82af5c4af838a86de1f1315361cb5f.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-02-bg.jpg">
-                        <div class="canvas" style="height: 828px;">
-                            <div class="note" style=" left: 77.8%; bottom: 59%; width: 8.4em"><div><div style="height: 4.4em; padding: 0">
-                                <div class="tb centered middle"><div>
-                                    <img src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h6e7a85078d1fdc9c6d8a582ae9f6dc48.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2F02-Watch_2X.gif" style="width: 8.4em; margin-bottom: -0.8em">
-                                </div></div>
-                            </div></div></div>
-                        </div>
+                        <img src="./assets/slide2.jpg" class="js-load-img" data-mobile="./assets/slide2.jpg" data-default="./assets/slide2.jpg">
+                        
                     </div></div>
 
                     <div class="cont">
@@ -320,14 +330,7 @@
 
                     <div class="bgs r-c init w canvas-visible" data-ration="1.554726368"><div>
 
-                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hb97772b85536c7d93eef18e36ace7ef0.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-03-bg.jpg" class="js-load-img" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h37fe5fe5f9ea05c5a5acc640478ee8b8.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-03-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hb97772b85536c7d93eef18e36ace7ef0.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-03-bg.jpg">
-                        <div class="canvas" style="height: 828px;">
-                            <div class="note" style=" left: 72%; bottom: 35%; width: 8.4em"><div><div style="height: 4.4em; padding: 0;">
-                                <div class="tb centered middle"><div>
-                                    <img src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h9570b1128a23b717fc5252c5ba62691a.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fscreen%2F03-Caller-ID_2X.gif" style="width: 8.4em;">
-                                </div></div>
-                            </div></div></div>
-                        </div>
+                        <img src="./assets/slide3.jpg" class="js-load-img" data-mobile="./assets/slide3.jpg" data-default="./assets/slide3.jpg">
                     </div></div>
 
                     <div class="cont">
@@ -347,14 +350,7 @@
 
                     <div class="bgs r-c init w canvas-visible" data-ration="1.554726368"><div>
 
-                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hac04632f7c3f51dcbb0a787774fb81f8.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-04-bg.jpg" class="js-load-img" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h83240232a4abd4216a63fba924fb9b46.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-04-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hac04632f7c3f51dcbb0a787774fb81f8.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-04-bg.jpg">
-                        <div class="canvas" style="height: 828px;">
-                            <div class="note" style=" left: 69%; bottom: 53%; width: 8.4em"><div><div style="height: 4.4em; padding: 0;">
-                                <div class="tb centered middle"><div>
-                                    <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.hff1d11730d1f4ab9e657d51578f6739e.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2F04-Sleep_2X.png" style="width: 7.2em;">
-                                </div></div>
-                            </div></div></div>
-                        </div>
+                        <img src="./assets/slide4.jpg" class="js-load-img" data-mobile="./assets/slide4.jpg" data-default="./assets/slide4.jpg">
                     </div></div>
 
                     <div class="cont">
@@ -379,7 +375,7 @@
 
                     <div class="bgs r-c init w canvas-visible" data-ration="1.554404145"><div>
 
-                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h66d294d1cf1fab4c289fdfd67e940865.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-05-bg.jpg" class="js-load-img" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-jpg.hb8a45c655830e4d278b33ad0d6a59c97.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-05-bg-mobile.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h66d294d1cf1fab4c289fdfd67e940865.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fdetail-05-bg.jpg">
+                        <img src="./assets/slide5.jpg" class="js-load-img" data-mobile="./assets/slide5.jpg" data-default="./assets/slide5.jpg">
                         <div class="canvas" style="height: 828px;">
                             <img src="http://static1.fitbit.com/simple.b-cssdisabled-gif.he112bf23ea9b495b4b818a56d5197630.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fsyncs.gif" style="position: absolute; width: 3.85em; left: 72%; bottom: 25%;">
                         </div>
@@ -420,14 +416,14 @@
             <div class="features-content switching-effect" data-feature="challenges">
 
                 <div class="device macbook">
-                    <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h2b94604c9afa60ab3cbb0ecd5194e4c5.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2FmacBook_x2.png" class="js-load-img" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-png.hdae443ea50e67fe507026134abd83d02.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2FmacBook.png" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h2b94604c9afa60ab3cbb0ecd5194e4c5.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2FmacBook_x2.png">
+                    <!-- <img src="./assets/tab.png" class="js-load-img" data-mobile="./assets/tab.png" data-default="./assets/tab.png"> -->
 
-                    <div class="screen">
-                        <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.hd53c63eab7cc1316845e4b4084fbc504.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fweb_Next_Gen_Dash%402x.png" class="js-load-img active" data-feature="progress, workout, challenges, logFoot, badges, sleep" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-png.h9a18cff8f09129fce19445542707f6d6.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fweb_Next_Gen_Dash-mobile.png" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.hd53c63eab7cc1316845e4b4084fbc504.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fweb_Next_Gen_Dash%402x.png">
+                    <div class="screen" style="left: 40%">
+                        <img src="./assets/everthing.png" class="js-load-img active" data-feature="progress, workout, challenges, logFoot, badges, sleep" data-mobile="./assets/everthing.png" data-default="./assets/everthing.png">
                     </div>
                 </div>
 
-                <div class="device iphone">
+               <!--  <div class="device iphone">
                     <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.hfb101f85ada76d9e95799cd812e5854c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone_x2.png" class="js-load-img" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-png.hce61a7ec11ac220db0a0cb5e1ac1adda.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone.png" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.hfb101f85ada76d9e95799cd812e5854c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone_x2.png">
 
                     <div class="screen">
@@ -451,7 +447,7 @@
                         <img data-feature="badges" src="http://static0.fitbit.com/simple.b-cssdisabled-gif.h1934b03a85a9357e43f0cae0d199caa4.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fbadges.gif" class="">
                         <img data-feature="sleep" src="http://static1.fitbit.com/simple.b-cssdisabled-png.h34256776833e080ab5e55bcb80fb248d.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fcharge-sleep-screen.png" class="">
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
@@ -495,18 +491,50 @@
                     </li>
                 </ul>
 
-                <p class="learn-more"><a href="/app" class="btn brd brd-white learn-more" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'learn more - charge', 'eventLbl': '', 'eventVal': 0, 'nonInteraction': 0})">Learn more</a></p>
+                <!-- <p class="learn-more"><a href="/app" class="btn brd brd-white learn-more" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'learn more - charge', 'eventLbl': '', 'eventVal': 0, 'nonInteraction': 0})">Learn more</a></p> -->
             </div>
 
         </div>
 
     </div></div>
-    </div>
 
+    </div>
+    <script type="text/javascript" src="./js/fitbit1.js" charset="utf-8"></script>
+
+    <div class="row no-row">
+        <div style="background-color: #E2E2E2; height: 10vw;" class="col-xs-12 col-sm-12 col-md-12 col-sm-12 col-xs-12">
+            
+        </div>
+    </div>
+    <div class="row no-row" style="margin-top: 20px;">
+        <div class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+            <h4 class="head4">NOBLY</h4>
+            <p class="paragraph">Build a campaign of kindness and see how far one good deed can go.</p>
+        </div>
+        <div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
+            <h4 class="head4">ON THE BLOG</h4>
+            <p class="paragraph">Build a campaign of kindness and see how far one good deed can go.</p>
+        </div>
+        <div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
+            <h4 class="head4">TRENDING TOPICS</h4>
+            <div class="footer-trnding btn">Business</div>
+            <div class="footer-trnding btn">DailyRack</div>
+            <div class="footer-trnding btn">Events</div>
+            <div class="footer-trnding btn">Featured</div>
+            <div class="footer-trnding btn">Food for Thought</div>
+        </div>
+        <div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+            <h4 class="head4">AROUND THE SITE</h4>
+            <a href="#about">Home</a>
+            <a href="#about">Home</a>
+        </div>
+    </div>
+    <div style="margin-top: 20px; background-color: #1F1F1F; height: 5vw;">
+        <p style="color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 Nobly. All rights reserved, Nobly LLC</p>
+    </div>
 	   
     </body> 
 </html>
-<script type="text/javascript" src="./js/fitbit1.js" charset="utf-8"></script>
  
 
 

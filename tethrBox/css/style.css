@@ -3,24 +3,42 @@ body {
 	height: 100%;
 	margin: 0px !important;
 }
+body {
+  margin: 0;
+  height: 100%;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('../images/jci logo black and white.png') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
 
 #topNavContainer {
-	background-color: black;
+	background-color: #be1e2d;
 	height: 6vw;
 }
 
 #logo {
-	width: 9.4vw;
+	width: 22vw;
 	height: auto;
 	margin-left: 6vw;
-	margin-top: 0.5vw;
+	margin-top: 0.3	5vw;
 	float: left;
 }
 
 #menuIcon {
 	margin-right: 2vw;
 	float: right;
-	margin-top: 1.4vw;
+	margin-top: 1.7vw;
 	text-align: center;
 	color: #faa51a;
 	cursor: pointer;
@@ -128,7 +146,7 @@ body {
 #businessAnimate div div{
 	margin-top: 1.5vw;
 	height: 22vw;
-	border: 1vw solid #fff;
+	border: 0.6vw solid #fff;
 	opacity: 1;
 }
 
@@ -148,7 +166,66 @@ body {
 #businessAnimate1 div div{
 	margin-top: 1.5vw;
 	height: 22vw;
-	border: 1vw solid #fff;
+	border: 0.6vw solid #fff;
 	opacity: 1;
 }
 
+
+.head4{
+	font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.paragraph {
+        margin: 0 0 10px;
+            display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.featureDiv{
+	background-color: black;
+}
+.featureImage{
+	 background-color: black;
+    opacity: 0.5;
+}
+.navTab{
+	/*font-weight: bold;*/
+    font-family: montMedium !important;
+
+}
+
+@font-face {
+    font-family: headerTwoFont;
+    src: url(Montserrat-ExtraLight.otf);
+}
+@font-face {
+    font-family: montLight;
+    src: url(Montserrat-Light.otf);
+}
+@font-face {
+    font-family: montMedium;
+    src: url(Montserrat-Medium.otf);
+}
+.head2{
+    font-family: headerTwoFont !important;
+
+}
