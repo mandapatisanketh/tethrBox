@@ -31,7 +31,7 @@ video {
 	width: 22vw;
 	height: auto;
 	margin-left: 6vw;
-	margin-top: 0.3	5vw;
+	margin-top: 0.35vw;
 	float: left;
 }
 
@@ -228,4 +228,20 @@ video {
 .head2{
     font-family: headerTwoFont !important;
 
+}
+
+.onBlog {
+	display: inline-block;
+	padding-top: 5px;
+	color: #898989 !important;
+	font-size: 15px;
+}
+
+.socialIcon{
+	font-size: 30px !important;
+}
+
+.footerHeadings {
+	    font-size: 14px;
+    font-weight: bold;
 }

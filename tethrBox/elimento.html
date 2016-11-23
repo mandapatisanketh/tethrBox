@@ -62,11 +62,11 @@
             <!--_____________Top Navigation Bar_____________-->
             <div id="topNavContainer" style="z-index: 10; border-bottom: 2px solid #97000e;">
                 <img id="logo" src="./images/jci logo black and white.png">
-                <div id="menuIcon">
-                    <i style="font-size: 1.7vw;" class="fa fa-bars"></i>
+                <!-- <div id="menuIcon"> -->
+                    <!-- <i style="font-size: 1.7vw;" class="fa fa-bars"></i> -->
                     <!-- <p style="font-size: 1vw;">Menu</p> -->
-                </div>
-                <div style="background-color: #97000e; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
+                <!-- </div> -->
+                <!-- <div style="background-color: #97000e; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div> -->
             </div>
             <!--______________________________________________-->
             <!-- <div id="backVideo"> -->
@@ -75,11 +75,11 @@
                 </video>
             <!-- </div> -->
             <div style="text-align: center; color: white;">
-                <p style="font-size: 55px; padding-top: 10vw; font-family: Helvetica, Arial, sans-serif;">TECHNOLOGY & INSIGHTS THAT HELP THE WORLD PROGRESS</p>
-                <p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
-                <div class="btn abtMerger">
+                <p style="font-size: 40px; padding-top: 18vw; font-family: Helvetica, Arial, sans-serif; color: white;">Leveraging Data Science for Industries</p>
+                <p style="padding-top: 0.8vw; font-size: 30px; color: #e4bcbc;">Monitors process conditions for insights to maximise efficiency</p>
+<!--                 <div class="btn abtMerger">
                     <span>ABOUT THE MERGER</span>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -91,7 +91,7 @@
 		</nav>
 		<nav class="product-sub-nav nav2 fixed"><div class="tb centered middle" style="top: 0px;">
 			<div>
-			<div class="wrapper-content">
+			<div style="background-color: #375b5d; width: 100%;" class="wrapper-content">
 			    <div class="logo">
 			        <a href="#product-info">
 			            <!-- <img class="v" src="/content/assets/charge/images/charge-black.svg" alt="Charge"> -->
@@ -101,7 +101,9 @@
 
 			    <div class="nav-group mobile-hide">    
 			       <ul>
-			          <li style="display:none;"><a href="#product-info" class="">Info</a></li>
+			          <li>
+                        <a class=""><img id="logo" style="margin-bottom: 0.5vw;" src="./images/jci logo black and white.png"></a>
+                        </li>
 			          <li><a href="#feature-details" class="active navTab">Treatment Plants</a></li>
 			          <li><a href="#slide-1" class="navTab">HVAC Systems</a></li>
 			          <li><a href="#slide-2" class="navTab" >Biogas Plants</a></li>
@@ -166,10 +168,10 @@
                     <img src="./assets/featureBackground.jpg" class="js-load-img" data-mobile="./assets/featureBackground.jpg" data-default="./assets/featureBackground.jpg">
                 </div></div>
 
-                <a style="z-index: 3; opacity: 0;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-after" href="#features">
+               <!--  <a style="z-index: 3; opacity: 0;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-after" href="#features">
                     <span class="fa fa-chevron-down arrow-1"></span>
                     <span class="fa fa-chevron-down arrow-2"></span>
-                </a>
+                </a> -->
 
                 <div class="indent-nav">
                     <a id="features" data-nav-box="#features-group"></a>
@@ -177,7 +179,7 @@
 
 
                 <div class="clearfix wrapper-content">
-                    <h2>An advanced wristband to elevate every day.</h2>
+                    <h2>An end-to-end solution tailor made for your monitoring and automation needs.</h2>
                     
                     
                     <!-- <div data-color="black" class="features-content switching-effect" data-feature="sleep">
@@ -207,60 +209,39 @@
             -->
                  <div class="clearfix switch-group features">
                         <ul>
-                            
-                            
-
-                            
-                            <!--/ul>
-                            <ul-->
-                            
-
-                            
-                            
-
                         <li style="min-height: 100px;">
                                 <a class="ic ic-ch ic-run-circle switch" href="javascript:void(0);" data-feature="allDayActivity" data-switch-order="0">
-                                    <h3>All-Day Activity</h3>
-                                    <p class="mobile-hide">Track steps, distance, calories burned, floors climbed, active minutes, hourly activity &amp; stationary time</p>
+                                    <h3>Monitoring</h3>
+                                    <p class="mobile-hide">Plug sensors that you require</p>
+                                    <p class="mobile-hide">Plug sensors that you require</p>
                                 </a>
                             </li><li style="min-height: 100px;">
                                 <a class="ic ic-ch ic-battery-circle switch" href="javascript:void(0);" data-feature="musicControl" data-switch-order="3">
-                                    <h3>Long Battery Life</h3>
-                                    <p class="mobile-hide">Lasts longer than competing trackers with a battery life of 7-10 days* </p>
+                                    <h3>Automate</h3>
+                                    <p class="mobile-hide">Replace your contactors with our soft-start soft-stop powered devices</p>
                                 </a>
                             </li><li style="min-height: 100px;">
                                 <a class="ic ic-ch ic-watch-circle switch" href="javascript:void(0);" data-feature="watch" data-switch-order="1">
-                                    <h3>Watch + Display</h3>
-                                    <p class="mobile-hide">See daily stats, time of day &amp; Exercise Mode on the OLED display </p>
+                                    <h3>Logic Control</h3>
+                                    <p class="mobile-hide">Whether sensor logic or time logic, we can make it work for you</p>
                                 </a>
                             </li><li class="feature-sleep-better" style="min-height: 100px;">
                                 <a class="ic ic-ch ic-moon-circle switch active" href="javascript:void(0);" data-feature="sleep" data-switch-order="4">
-                                    <h3>Auto Sleep + Alarms</h3>
-                                    <p class="mobile-hide">Monitor your sleep automatically &amp; set a silent alarm</p>
+                                    <h3>Cloud Connect</h3>
+                                    <p class="mobile-hide">An active internet connected solution lets you track even the Slightest fluctuation wherever you are</p>
                                 </a>
                             </li><li style="min-height: 100px;">
                                 <a class="ic ic-ch ic-caller-circle switch" href="javascript:void(0);" data-feature="caller" data-switch-order="2">
-                                    <h3>Caller ID</h3>
-                                    <p class="mobile-hide">See call notifications on display with compatible mobile devices</p>
+                                    <h3>Data Analysis</h3>
+                                    <p class="mobile-hide">Our Big Data + Hadoop platform analyses your data and predicts breakdowns helping you make better decisions in allocating optimum resources</p>
                                 </a>
                             </li><li style="min-height: 100px;">
                                 <a class="ic ic-ch ic-wifi-circle switch" href="javascript:void(0);" data-feature="wifi" data-switch-order="5">
-                                    <h3>Wireless Syncing</h3>
-                                    <p class="mobile-hide">Sync stats wirelessly &amp; automatically to leading smartphones and computers</p>
+                                    <h3>Alarms and Notifications</h3>
+                                    <p class="mobile-hide">Sync statistics automatically and alert via SMS or notifications whenever necessary</p>
                                 </a>
                             </li></ul>
                     </div>
-
-                    
-                       <!--  <ul class="switch-group colors">
-                            
-                            
-                                <li><a data-switch-order="1" class="switch active" href="javascript:void(0);" data-color="black" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'black', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Black</i></b></span></a></li>
-                                <li><a data-switch-order="2" class="switch" href="javascript:void(0);" data-color="slate" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'slate', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Slate</i></b></span></a></li>
-                                <li><a data-switch-order="3" class="switch" href="javascript:void(0);" data-color="blue" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'blue', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Blue</i></b></span></a></li>
-                                <li><a data-switch-order="4" class="switch" href="javascript:void(0);" data-color="burgundy" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'product color click - charge', 'eventLbl': 'burgundy', 'eventVal': 0, 'nonInteraction': 0})"><span><b><i>Burgundy</i></b></span></a></li>
-                            
-                        </ul> -->
                     
                 </div>
 
@@ -291,8 +272,8 @@
                                 <!-- <h3><b>ALL-DAY ACTIVITY</b></h3> -->
 
                                 <h2 class="head2">Treatment Plants</h2>
-                                <p class="mobile-visible">Get motivated to move more with Charge by tracking steps taken, distance traveled, calories burned, floors climbed and active minutes.</p>
-                                <p class="mobile-hide">Get motivated to move more with Charge, by tracking all-day activity like steps taken, distance traveled, calories burned, floors climbed and active minutes.</p>
+                                <p class="mobile-visible">Now access, monitor, control and measure the status in real time and generate the reports efficiently, making the treatment plants work as per needs at a much optimal cost. </p>
+                                <p class="mobile-hide">Now access, monitor, control and measure the status in real time and generate the reports efficiently, making the treatment plants work as per needs at a much optimal cost. </p>
                             </div></div>
                         </div>
 
@@ -316,8 +297,8 @@
 
                                 <!-- <h3><b>Watch + display</b></h3> -->
                                 <h2 class="head2">HVAC Systems</h2>
-                                <p class="mobile-visible">Charge lets you see every stat as it happens—right on your wrist, with a bright OLED display. And, with an industry-leading battery life of 7-10 days*, you can find the inspiration to beat your goals—no matter what the week brings.</p>
-                                <p class="mobile-hide">Charge lets you see every stat as it happens—right on your wrist, with a bright OLED display. And, with an industry-leading battery life of 7-10 days*, you can find the inspiration to beat your goals—no matter what the week brings.</p>
+                                <p class="mobile-visible">An intelligent platform to restrain all high voltage devices.  </p>
+                                <p class="mobile-hide">An intelligent platform to restrain all high voltage devices.  </p>
 
                             </div></div>
                         </div>
@@ -338,8 +319,8 @@
                                <!--  <i class="strip"><i class="ic ic-caller-circle"></i></i> -->
                                 <!-- <h3><b>Caller id</b></h3> -->
                                 <h2 class="head2">Biogas Plants</h2>
-                                <p class="mobile-visible">Built with Caller ID, Charge shows your incoming calls when your phone is nearby to help you take control of your day and your schedule. <a href="/app">View compatible devices</a></p>
-                                <p class="mobile-hide">Built with Caller ID, Charge shows your incoming calls when your phone is nearby to help you take control of your day and your schedule. <a href="/app">View compatible devices</a></p>
+                                <p class="mobile-visible">Ensuring maximum gas production and energy generation</a></p>
+                                <p class="mobile-hide">Ensuring maximum gas production and energy generations</a></p>
                             </div></div>
                         </div>
                     </div>
@@ -359,8 +340,8 @@
                                 <!-- <i class="strip"><i class="ic ic-moon-circle"></i></i> -->
                                 <!-- <h3><b>Auto sleep + alarms</b></h3> -->
                                 <h2 class="head2">Desalination Plants</h2>
-                                <p class="mobile-visible">Sleep better and live well by using Charge to automatically track your sleep at night, see your trends on the dashboard, and set a silent, vibrating alarm.</p>
-                                <p class="mobile-hide">Sleep better and live well by using Charge to automatically track your sleep at night, then review your trends on the dashboard. To make mornings easier, set a silent, vibrating alarm and wake more peacefully.</p>
+                                <p class="mobile-visible">Cost-effective provision of fresh-water for human use.</p>
+                                <p class="mobile-hide">Cost-effective provision of fresh-water for human use.</p>
 
                             </div></div>
                         </div>
@@ -388,8 +369,8 @@
                                 <!-- <i class="strip"><i class="ic ic-wifi-circle"></i></i> -->
                                 <!-- <h3><b>Wireless syncing</b></h3> -->
                                 <h2 class="head2">Water Bodies' Rejuvenation</h2>
-                                <p class="mobile-visible">Charge automatically and wirelessly syncing your stats to your computer and <a href="/devices">150+ leading smartphones</a>, so you can see your progress on-the go.</p>
-                                <p class="mobile-hide">By automatically and wirelessly syncing your stats to your computer and <a href="/devices">150+ leading smartphones</a>, Charge lets you see your progress on-the go, and shows you detailed charts and graphs so you can track your trends over time.</p>
+                                <p class="mobile-visible">Revitalizing polluted water bodies by continuous removal of extraneous matter</p>
+                                <p class="mobile-hide">Revitalizing polluted water bodies by continuous removal of extraneous matter</p>
                             </div></div>
                         </div>
                     </div>
@@ -398,7 +379,7 @@
 
             <nav class="nav-group mobile-hide outside"><ul><li><a href="#feature-details" class="active"><span>feature-details</span></a></li><li><a href="#slide-1"><span>slide-1</span></a></li><li><a href="#slide-2"><span>slide-2</span></a></li><li><a href="#slide-3"><span>slide-3</span></a></li><li><a href="#slide-4"><span>slide-4</span></a></li></ul></nav></div>
 
-        <div class="tb middle max-height grad-light-green switch-manager-features app-dashboard active" style="min-height: 800px;"><div>
+        <div class="tb middle max-height grad-light-green switch-manager-features app-dashboard active" style="min-height: 800px; background-image: url(./assets/featureBackground.jpg) !important"><div>
 
         <a style="z-index: 3; opacity: 0.149533;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-between" href="#dashboard">
             <span class="fa fa-chevron-down arrow-1"></span>
@@ -456,38 +437,32 @@
                 <ul>
                     <li>
                         <a data-switch-order="1" class="ic ic-chalice switch" href="javascript:void(0);" data-feature="progress">
-                            <h3>See progress</h3>
-                            <p>View your progress and analyze your trends with<br> easy-to-read charts and graphs</p>
+                            <h3>Graphic representations</h3>
+                            <p>Graphic engine to represent real time field data</p>
                         </a>
                     </li>
                     <li>
                         <a data-switch-order="2" class="ic ic-boot switch" href="javascript:void(0);" data-feature="workout">
-                            <h3>Record workouts</h3>
-                            <p>Log workouts, see a monthly exercise calendar, &amp; use MobileRun to track run stats and map routes</p>
+                            <h3>Go Agile</h3>
+                            <p>Dynamically alter resources based on user needs</p>
                         </a>
                     </li>
                     <li>
                         <a data-switch-order="3" class="ic ic-shield switch active" href="javascript:void(0);" data-feature="challenges">
-                            <h3>Share + compete</h3>
-                            <p>Invite friends and family to share stats, send cheers<br> &amp; taunts, &amp; compete on the leaderboard</p>
+                            <h3>Smart Water</h3>
+                            <p>Get real time updates and notifications 24x7 in case any set points are breached or any deviation in process occurs</p>
                         </a>
                     </li>
                     <li>
                         <a data-switch-order="4" class="ic ic-knife switch" href="javascript:void(0);" data-feature="logFoot">
-                            <h3>Log food</h3>
-                            <p>Log food fast with a barcode scanner, calorie<br> estimator, meal shortcuts &amp; expanded food database</p>
+                            <h3>Actionable Insights</h3>
+                            <p>Get reports that direct to the inefficiencies in the plants at regular intervals</p>
                         </a>
                     </li>
                     <li>
                         <a data-switch-order="5" class="ic ic-budget switch" href="javascript:void(0);" data-feature="badges">
-                            <h3>Earn badges</h3>
-                            <p>Get goal progress notifications &amp; celebrate <br> fitness milestones with badges</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a data-switch-order="6" class="ic ic-moon switch" href="javascript:void(0);" data-feature="sleep">
-                          <h3>SLEEP BETTER</h3>
-                          <p>Set sleep goals, review sleep quality<br>&amp; see weekly sleep trend graphs</p>
+                            <h3>Essential Aspects</h3>
+                            <p>Monitors and logs the power consumption to provide energy efficient ways for sustainable water</p>
                         </a>
                     </li>
                 </ul>
@@ -508,30 +483,64 @@
             </div>
         </div>
         <div class="row no-row" style="padding-top: 20px; padding-bottom: 20px; background-color: white;">
-            <div class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
-                <h4>NOBLY</h4>
-                <p>Build a campaign of kindness and see how far one good deed can go.</p>
+            <div class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                <h4 class="footerHeadings">REACH US AT</h4>
+                <div style="padding-top:  10px;">
+                    <p style="padding-top:  3px;">TetherBox Technologies LLP.  </p>
+                    <p style="padding-top:  3px;">2nd Floor, PVR Complex, 80 feet road,</p>
+                    <p style="padding-top:  3px;">Indira Nagar, Bengaluru – 560038</p>
+                </div>
             </div>
             <div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
-                <h4>ON THE BLOG</h4>
-                <p>Build a campaign of kindness and see how far one good deed can go.</p>
+                <h4 class="footerHeadings">ON THE BLOG</h4>
+                <div class="row" style="padding-top: 10px; width: 100%">
+                    <div class="colcol-xl-12 col-ls-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <img src="./images/1.png" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                        <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog " href="http://blog.tethr.it/bellandur-lake-the-toxic-paradise/">
+                            Bellandur Lake – The Toxic Paradise
+                        </a>
+                    </div>
+                    <div class="row">
+                    <img src="./images/2.jpg" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                    <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog" href="http://blog.tethr.it/how-video-analytics-is-changing-the-face-of-sales-in-retail/">
+                        How VIDEO ANALYTICS is changing the face of sales in retail
+                    </a>
+                    </div>
+                    <div class="row">
+                    <img src="./images/3.jpg" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                    <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog" href="http://blog.tethr.it/5-reasons-why-bengaluru-is-the-ideal-place-for-start-ups/">
+                        5 reasons why Bengaluru is the ideal place for start-ups
+                    </a>
+                    </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
-                <h4>TRENDING TOPICS</h4>
-                <div class="footer-trnding btn">Business</div>
-                <div class="footer-trnding btn">DailyRack</div>
-                <div class="footer-trnding btn">Events</div>
-                <div class="footer-trnding btn">Featured</div>
-                <div class="footer-trnding btn">Food for Thought</div>
+            <div class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4 ">
+                <h4 class="footerHeadings">CLIENTS</h4>
             </div>
-            <div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
-                <h4>AROUND THE SITE</h4>
+<!--             <div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+                <h3>CLIENTS</h3>
                 <a href="#about">Home</a>
                 <a href="#about">Home</a>
-            </div>
+            </div> -->
         </div>
         <div style="background-color: #1F1F1F; height: 5vw;">
-            <p style="color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 Nobly. All rights reserved, Nobly LLC</p>
+           <div style="padding-top: 15px">
+            <p style="display: inline; color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 Nobly. All rights reserved, Nobly LLC</p>
+            <div style="display: inline-block; float: right; padding-right: 70px;" >
+
+            <a target="_blank" style="margin-right: 15px;" href="https://www.facebook.com/tethrIT/">
+                    <i class="fa fa-facebook socialIcon" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" style="margin-right: 15px;" href="https://twitter.com/TethrIT">
+                    <i class="fa fa-twitter socialIcon" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" style="margin-right: 15px;" href="https://www.linkedin.com/company/tetherbox-technologies">
+                    <i class="fa fa-linkedin-square socialIcon" aria-hidden="true"></i>
+                </a>
+             </div> 
+             </div>
         </div>
    </div>
    </div>
