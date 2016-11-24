@@ -1,302 +1,630 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>
-		Tethr Box Technologies
-	</title>
-	<script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
-	<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<!-- <script type="text/javascript" src="./js/video.js"></script> -->
-	<script type="text/javascript" src="./js/animations.js"></script>
-	<link rel="stylesheet" type="text/css" href="./bower_components/font-awesome/css/font-awesome.css"/>
-	<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
-<body>
+<html  lang="en"><!--<![endif]--><head data-js-error="Script error.">
+<title>
+        TetherBox Technologies
+    </title>
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="./js/fitbit.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="./bower_components/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/fitbit.css">
+    <link rel="stylesheet" type="text/css" href="./css/fitbit1.css">
+    <link rel="stylesheet" type="text/css" href="./css/fitbit2.css">
+   <script type="text/javascript" src="./js/animations.js"></script>
+     
 
-<div id="mainBody" class="row" style="height: 100%;">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=1075">
 
-	<div id="completeBody" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 100%">
-		<div id="firstImage" style="width: 100%;background-color: rgba(0, 0, 0, 0.6);">
-			<!--_____________Top Navigation Bar_____________-->
-			<div id="topNavContainer" style="z-index: 10; border-bottom: 2px solid #97000e;">
-				<img id="logo" src="./images/jci logo black and white.png">
-				<div id="menuIcon">
-					<i style="font-size: 1.7vw;" class="fa fa-bars"></i>
-					<!-- <p style="font-size: 1vw;">Menu</p> -->
-				</div>
-				<div style="background-color: #97000e; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+        <link rel="stylesheet" type="text/css" href="./css/link1.css">
+        <link rel="stylesheet" type="text/css" href="./css/link2.css">
+        <link rel="stylesheet" type="text/css" href="./css/link3.css">
+        <link rel="stylesheet" type="text/css" href="./css/link4.css">
+        <link rel="stylesheet" type="text/css" href="./css/link5.css">
+        <link rel="stylesheet" type="text/css" href="./css/link6.css">
+        <link rel="stylesheet" type="text/css" href="./css/link7.css">
+        <link rel="stylesheet" type="text/css" href="./css/link8.css">
+        <link rel="stylesheet" type="text/css" href="./css/link9.css">
+        <link rel="stylesheet" type="text/css" href="./css/link10.css">
+        <link rel="stylesheet" type="text/css" href="./css/link11.css">
+        <link rel="stylesheet" type="text/css" href="./css/link12.css">
+
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="https://assets.fitbit.com/production/app.layouts.baseMarketing.2.css.08f34e7d6575db817992ff67bcca0016.css" charset="utf-8"/>
+        <![endif]-->
+       
+
+
+        
+    <script type="text/javascript" src="./js/header.js" charset="utf-8"></script> 
+    <script type="text/javascript" src="./js/fitbit2.js" charset="utf-8"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+
+    <script src="http://cdn.optimizely.com/js/249008631.js"></script>      
+    <script type="text/javascript" src="./js/fitbit3.js" charset="utf-8"></script>
+
+     <!-- <link rel="stylesheet" type="text/css" href="./css/header.css" > -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://assets.fitbit.com/production/weightsite.site.web.css.font-awesome.css.769d29b69445a89c18e0e5d3cafd3fe6.css" charset="utf-8">
+         -->
+   
+
+    <body  data-user-id="" data-user-name="" data-date="" data-clock="24" data-height-system="" data-weight-system="" data-start-day-of-week="" style="height: 9019px;">
+    <a name="top"></a>
+    <div id="mainBody">
+    <div style="padding: 0px;" id="completeBody" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+        <div id="firstImage" style="width: 100%;background-color: rgba(0, 0, 0, 0.6);">
+            <!--_____________Top Navigation Bar_____________-->
+            <div id="topNavContainer" style="z-index: 10;">
+                <img id="logo" src="./images/jci logo black and white.png">
+                <!-- <div id="menuIcon"> -->
+                    <!-- <i style="font-size: 1.7vw;" class="fa fa-bars"></i> -->
+                    <!-- <p style="font-size: 1vw;">Menu</p> -->
+                <!-- </div> -->
+                <!-- <div style="background-color: #97000e; height: 100%; width: 2px; margin-right: 2vw; float: right;"></div> -->
+            </div>
+            <!--______________________________________________-->
+            <!-- <div id="backVideo"> -->
+                <video poster="./images/buildings.jpg" id="bgvid" playsinline autoplay muted loop>
+                    <source src="./assets/slow_motion.mp4" type="video/mp4">
+                </video>
+            <!-- </div> -->
+            <div style="text-align: center; color: white;">
+                <p style="font-size: 40px; padding-top: 18vw; font-family: headerTwoFont !important; color: white;">Leveraging Data Science for Industries</p>
+                <p style="padding-top: 0.8vw; font-size: 30px; color: #e4bcbc;">Monitors process conditions for insights to maximise efficiency</p>
+<!--                 <div class="btn abtMerger">
+                    <span>ABOUT THE MERGER</span>
+                </div> -->
+            </div>
+        </div>
+
+
+    <div id="container" class=" ">
+
+		<nav id="sitenav" class="">
+			<div class="noSubNav"></div>        
+		</nav>
+		<nav class="product-sub-nav nav2 fixed"><div class="tb centered middle" style="top: 0px;">
+			<div>
+			<div style="background-color: #375b5d; width: 100%;" class="wrapper-content">
+			    <div class="logo">
+			        <a href="#product-info">
+			            <!-- <img class="v" src="/content/assets/charge/images/charge-black.svg" alt="Charge"> -->
+			            <img class="r" src="http://static1.fitbit.com/simple.b-cssdisabled-png.h01af86549e9774703563e1b3dab70046.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fcharge-black.png" alt="Charge">
+			        </a>
+			    </div>
+
+			    <div class="nav-group mobile-hide">    
+			       <ul>
+			          <li>
+                        <a class=""><img id="logo" style="margin-bottom: 0.5vw;" src="./images/jci logo black and white.png"></a>
+                        </li>
+			          <li><a href="#feature-details" class="active navTab">Treatment Plants</a></li>
+			          <li><a href="#slide-1" class="navTab">HVAC Systems</a></li>
+			          <li><a href="#slide-2" class="navTab" >Biogas Plants</a></li>
+                      <li><a href="#slide-3" class="navTab">Desalination Plants</a></li>
+			          <li><a href="#slide-4" class="navTab">water Bodies' Rejuvenation</a></li>
+			      </ul>     
+			    </div>
+			</div></div></div>
+		</nav>
+        
+        
+        <!-- <div id="product-info" class="tb centered middle max-height header-indent product-info" style="min-height: 740px;"><div>
+            <div data-top="top: 0%" data-top-bottom="top: 50%" class="bgs r-c init skrollable skrollable-after" data-ration="1.775625504" style="top: 50%;"><div>
+              <img src="./assets/image1.jpg" class="js-load-img"  data-default="./assets/image1.jpg">
+            </div></div>
+
+            <div id="video-product" class="video-product popup"><div class="popup-content">
+                <iframe id="yCJ-cDHMPnc" width="853" height="480" src="https://www.youtube.com/embed/yCJ-cDHMPnc?rel=0&amp;vq=hd1080&amp;showinfo=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer&amp;controls=1&amp;html5=1&amp;origin=http://www.fitbit.com" frameborder="0" allowfullscreen="" style="width:100%;height:100%;"></iframe>
+
+            </div></div>
+
+            <div class="wrapper-content">
+                <h1>Energize your day.</h1>
+
+                <div class="rotation-slider" style="width: 40%; max-width: 196px">
+                    
+                  
+                        
+                              <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.h1b5eeed389c93a00f375564cdec89e54.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-01-charge.png" class="js-load-img" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-png.hedf7b908c9c2a7d32629e1a61d7f15b1.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-01-charge-mobile.png" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.h1b5eeed389c93a00f375564cdec89e54.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fslide-01-charge.png">
+                </div>
+
+                <h2>
+                    <div class="ibi">
+                       <!--  <img class="v" src="/content/assets/charge/images/charge-white.svg" alt="Charge"> -->
+                   <!--      <img class="r" src="http://static0.fitbit.com/simple.b-cssdisabled-png.he98628246cbe984749a896ca85410579.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fcharge-white.png" alt="Charge">
+                    </div>
+                </h2>
+
+                <h3>Activity + sleep wristband</h3>
+
+                <p class="buttons" style="text-align: center">
+                    <a href="javascript:void(0);" class="btn brd arrow-right ic-play video-start">Watch video</a>
+                    
+                      
+                        
+                        
+                        <a href="http://amazon.in/fitbit-charge" class="btn btn-amazon bg" target="_blank" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'amazon.in/fitbit-charge', 'eventVal': 0, 'nonInteraction': 0});" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'buy now - charge', 'eventLbl': 'hero image', 'eventVal': 0, 'nonInteraction': 0})">Buy Now at</a>
+                         
+                    
+                    
+                    
+                </p>
+            </div> -->
+
+        <!-- </div></div> --> 
+        <!-- Features block -->
+        <div id="features-group" class="active">
+
+            <div class="tb middle max-height switch-manager-features product-features" style="min-height: 800px;"><div>
+
+                <div class="bgs c-c init w" data-ration="1.554726368" style="text-align: center;"><div>
+                    <img src="./assets/featureBackground.jpg" class="js-load-img" data-mobile="./assets/featureBackground.jpg" data-default="./assets/featureBackground.jpg">
+                    <img src="./images/ElementoProduct.png" style="width: 25%;">
+                </div></div>
+
+               <!--  <a style="z-index: 3; opacity: 0;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-after" href="#features">
+                    <span class="fa fa-chevron-down arrow-1"></span>
+                    <span class="fa fa-chevron-down arrow-2"></span>
+                </a> -->
+
+                <div class="indent-nav">
+                    <a id="features" data-nav-box="#features-group"></a>
+                </div>
+
+
+                <div class="clearfix wrapper-content">
+                    <h2 style="font-size: 40px; font-family: headerTwoFont !important; color: white;">An end-to-end solution tailor made for your monitoring and automation needs</h2>
+                    
+                    
+                    <!-- <div data-color="black" class="features-content switching-effect" data-feature="sleep">
+
+                        <div class="products">
+                            
+
+                            <img src="./assets/watch1.png" class="js-load-img active" data-color="black" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="slate" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="blue" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            <img src="./assets/watch1.png" class="js-load-img" data-color="burgundy" data-mobile="./assets/watch1.png" data-default="./assets/watch1.png">
+                            
+                        </div>
+
+                        <div class="screen">
+                            <img data-feature="allDayActivity" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="watch" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="caller" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="musicControl" src="./assets/gifFile1.gif" class="">
+                            <img data-feature="sleep" src="./assets/gifFile1.gif" class="active">
+                            <img data-feature="wifi" src="./assets/gifFile1.gif" class="">
+                        </div>
+
+                        <img class="wifi" data-feature="wifi" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.hd6057788f1e8963a424c1cfa0ac3b248.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fsyncs.gif">
+
+                    </div>
+            -->
+                 <div class="clearfix switch-group features">
+                        <ul>
+                        <li style="min-height: 100px;">
+                                <a class="ic ic-ch ic-run-circle switch" href="javascript:void(0);" data-feature="allDayActivity" data-switch-order="0">
+                                    <h3>Monitoring</h3>
+                                    <p class="mobile-hide">Plug sensors that you require</p>
+                                    <p class="mobile-hide">Plug sensors that you require</p>
+                                </a>
+                            </li><li style="min-height: 100px;">
+                                <a class="ic ic-ch ic-battery-circle switch" href="javascript:void(0);" data-feature="musicControl" data-switch-order="3">
+                                    <h3>Automate</h3>
+                                    <p class="mobile-hide">Replace your contactors with our soft-start soft-stop powered devices</p>
+                                </a>
+                            </li><li style="min-height: 100px;">
+                                <a class="ic ic-ch ic-watch-circle switch" href="javascript:void(0);" data-feature="watch" data-switch-order="1">
+                                    <h3>Logic Control</h3>
+                                    <p class="mobile-hide">Whether sensor logic or time logic, we can make it work for you</p>
+                                </a>
+                            </li><li class="feature-sleep-better" style="min-height: 100px;">
+                                <a class="ic ic-ch ic-moon-circle switch active" href="javascript:void(0);" data-feature="sleep" data-switch-order="4">
+                                    <h3>Cloud Connect</h3>
+                                    <p class="mobile-hide">An active internet connected solution lets you track even the Slightest fluctuation wherever you are</p>
+                                </a>
+                            </li><li style="min-height: 100px;">
+                                <a class="ic ic-ch ic-caller-circle switch" href="javascript:void(0);" data-feature="caller" data-switch-order="2">
+                                    <h3>Data Analysis</h3>
+                                    <p class="mobile-hide">Our Big Data + Hadoop platform analyses your data and predicts breakdowns helping you make better decisions in allocating optimum resources</p>
+                                </a>
+                            </li><li style="min-height: 100px;">
+                                <a class="ic ic-ch ic-wifi-circle switch" href="javascript:void(0);" data-feature="wifi" data-switch-order="5">
+                                    <h3>Alarms and Notifications</h3>
+                                    <p class="mobile-hide">Sync statistics automatically and alert via SMS or notifications whenever necessary</p>
+                                </a>
+                            </li></ul>
+                    </div>
+                    
+                </div>
+
+        </div></div>
+
+            <div class="slide-group" data-nav-mousewheel="true">
+
+                <div id="feature-details" class="max-height slide feature-details feature-all-day-activity active" style="min-height: 800px;">
+
+                    <a style="z-index: 3; opacity: 0.233645;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-between" href="#feature-details">
+                        <span class="fa fa-chevron-down arrow-1"></span>
+                        <span class="fa fa-chevron-down arrow-2"></span>
+                    </a>
+
+                    <div class="bgs c-c init w canvas-visible" data-ration="1.554726368">
+                    <div class="featureDiv">
+
+                        <img src="./assets/Treatment Plants.jpg" class="js-load-img featureImage" data-mobile="./assets/Treatment Plants.jpg" data-default="./assets/Treatment Plants.jpg">
+                        
+                    </div>
+                    </div>
+
+                    <div class="cont">
+                        <div class="clearfix wrapper-content">
+                            <div class="text-wrap"><div class="ic-wrap">
+                                <!-- <i class="strip"><i class="ic ic-run-circle"></i></i> -->
+
+                                <!-- <h3><b>ALL-DAY ACTIVITY</b></h3> -->
+
+                                <h2 class="head2">Treatment Plants</h2>
+                                <p class="mobile-visible">Now access, monitor, control and measure the status in real time and generate the reports efficiently, making the treatment plants work as per needs at a much optimal cost </p>
+                                <p class="mobile-hide">Now access, monitor, control and measure the status in real time and generate the reports efficiently, making the treatment plants work as per needs at a much optimal cost </p>
+                            </div></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="max-height slide feature-details" id="slide-1" style="min-height: 800px;">
+
+                    <div class="bgs r-c init w canvas-visible" data-ration="1.554726368">
+                    <div featureDiv>
+
+                        <img src="./assets/HVAC_Ventilation_Exhaust.jpg" style="opacity: 1"class="js-load-img featureImage" data-mobile="./assets/HVAC_Ventilation_Exhaust.jpg" data-default="./assets/HVAC_Ventilation_Exhaust.jpg">
+                        
+                    </div></div>
+
+                    <div class="cont">
+                        <div class="clearfix wrapper-content">
+                            <div class="text-wrap"><div class="ic-wrap">
+                              <!--   <i class="strip"><i class="ic ic-watch-circle"></i></i> -->
+
+                                <!-- <h3><b>Watch + display</b></h3> -->
+                                <h2 class="head2">HVAC Systems</h2>
+                                <p class="mobile-visible">An intelligent platform to run your AC Systems the most efficient way  </p>
+                                <p class="mobile-hide">An intelligent platform to run your AC Systems the most efficient way  </p>
+
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-height slide feature-details" id="slide-2" style="min-height: 800px;">
+
+                    <div class="bgs r-c init w canvas-visible" data-ration="1.554726368">
+                    <div class="featureDiv">
+
+                        <img src="./assets/Biogas plants.jpg" class="js-load-img featureImage" data-mobile="./assets/Biogas plants.jpg" data-default="./assets/Biogas plants.jpg">
+                    </div></div>
+
+                    <div class="cont">
+                        <div class="clearfix wrapper-content">
+                            <div class="text-wrap"><div class="ic-wrap">
+                               <!--  <i class="strip"><i class="ic ic-caller-circle"></i></i> -->
+                                <!-- <h3><b>Caller id</b></h3> -->
+                                <h2 class="head2">Biogas Plants</h2>
+                                <p class="mobile-visible">Ensuring maximum gas production and energy generation</a></p>
+                                <p class="mobile-hide">Ensuring maximum gas production and energy generations</a></p>
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-height slide feature-details" id="slide-3" style="min-height: 800px;">
+
+                    <div class="bgs r-c init w canvas-visible" data-ration="1.554726368">
+                    <div class="featureDiv">
+
+                        <img style="opacity: 0.7"src="./assets/Desalination Plants.jpg" class="js-load-img featureImage" data-mobile="./assets/Desalination Plants.jpg" data-default="./assets/Desalination Plants.jpg">
+                    </div></div>
+
+                    <div class="cont">
+                        <div class="clearfix wrapper-content">
+                            <div class="text-wrap"><div class="ic-wrap">
+                                <!-- <i class="strip"><i class="ic ic-moon-circle"></i></i> -->
+                                <!-- <h3><b>Auto sleep + alarms</b></h3> -->
+                                <h2 class="head2">Desalination Plants</h2>
+                                <p class="mobile-visible">Cost-effective provision of fresh-water for human use.</p>
+                                <p class="mobile-hide">Cost-effective provision of fresh-water for human use.</p>
+
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="max-height feature-details feature-wireless-syncing" style="min-height: 800px;" id="slide-4">
+
+                    <div class="indent-nav">
+                        <a class="slide" data-nav-box=".feature-details" id="slide-4"> </a>
+                    </div>
+
+                    <div class="bgs r-c init w canvas-visible" data-ration="1.554404145">
+                    <div class="featureDiv">
+
+                        <img src="./assets/WaterBodies.jpg" class="js-load-img featureImage" data-mobile="./assets/WaterBodies.jpg" data-default="./assets/WaterBodies.jpg">
+                        <!-- <div class="canvas" style="height: 828px;">
+                            <img src="http://static1.fitbit.com/simple.b-cssdisabled-gif.he112bf23ea9b495b4b818a56d5197630.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Ffeatures%2Fdetails%2Fsyncs.gif" style="position: absolute; width: 3.85em; left: 72%; bottom: 25%;">
+                        </div> -->
+                    </div></div>
+
+                    <div class="cont">
+                        <div class="clearfix wrapper-content">
+                            <div class="text-wrap"><div class="ic-wrap">
+                                <!-- <i class="strip"><i class="ic ic-wifi-circle"></i></i> -->
+                                <!-- <h3><b>Wireless syncing</b></h3> -->
+                                <h2 class="head2">Water Bodies' Rejuvenation</h2>
+                                <p class="mobile-visible">Revitalizing polluted water bodies by continuous removal of extraneous matter</p>
+                                <p class="mobile-hide">Revitalizing polluted water bodies by continuous removal of extraneous matter</p>
+                            </div></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            <nav class="nav-group mobile-hide outside"><ul><li><a href="#feature-details" class="active"><span>feature-details</span></a></li><li><a href="#slide-1"><span>slide-1</span></a></li><li><a href="#slide-2"><span>slide-2</span></a></li><li><a href="#slide-3"><span>slide-3</span></a></li><li><a href="#slide-4"><span>slide-4</span></a></li></ul></nav></div>
+
+        <div class="tb middle max-height grad-light-green switch-manager-features app-dashboard active" style="min-height: 800px; background-image: url(./assets/featureBackground.jpg) !important"><div>
+
+        <a style="z-index: 3; opacity: 0.149533;" data-bottom="opacity: 1;" data-top="opacity: 0;" class="arrow-nav skrollable skrollable-between" href="#dashboard">
+            <span class="fa fa-chevron-down arrow-1"></span>
+            <span class="fa fa-chevron-down arrow-2"></span>
+        </a>
+
+        <div class="indent-nav">
+            <a id="dashboard" data-nav-box=".app-dashboard"></a>
+        </div>
+
+        <div class="clearfix wrapper-content">
+
+            <h2>Everything you need, <span class="tbr mbr"></span> all in one place.</h2>
+            <h3>Experience every moment of your plant from your dashboard</h3>
+
+            <div class="features-content switching-effect" data-feature="challenges">
+
+                <div class="device macbook">
+                    <!-- <img src="./assets/tab.png" class="js-load-img" data-mobile="./assets/tab.png" data-default="./assets/tab.png"> -->
+
+                    <div class="screen" style="left: 40%">
+                        <img src="./assets/tab.png" class="js-load-img active" data-feature="progress, workout, challenges, logFoot, badges, sleep" data-mobile="./assets/tab.png" data-default="./assets/tab.png">
+                    </div>
+                </div>
+
+               <!--  <div class="device iphone">
+                    <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.hfb101f85ada76d9e95799cd812e5854c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone_x2.png" class="js-load-img" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-png.hce61a7ec11ac220db0a0cb5e1ac1adda.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone.png" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.hfb101f85ada76d9e95799cd812e5854c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fiphone_x2.png">
+
+                    <div class="screen">
+                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.h06b4fa3eb2b132a1b977c425d507c378.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_progress.png" class="js-load-img" data-feature="progress" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-jpg.he8187922d7cc309cfb1e916d35fa8778.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fmobile%2F01_See_Progress_charge_screen.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.h06b4fa3eb2b132a1b977c425d507c378.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_progress.png">
+                        <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h37c1d922c73b45f62d7e3ca0553f5a32.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_record.png" class="js-load-img" data-feature="workout" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h12f9725ee334775685d3d60d7d6a7ae4.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fmobile%2F02_Record-Workouts_screen.jpg" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h37c1d922c73b45f62d7e3ca0553f5a32.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_record.png">
+                        <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h4043406d3942a06a5589d345269da45c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_compete.png" class="js-load-img active" data-feature="challenges" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h173aa83f4a5c9a71f01024c849e4b357.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fmobile%2F03_Complete-in-Challenges_screen.jpg" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h4043406d3942a06a5589d345269da45c.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_compete.png">
+                        <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h4ec5ae9a656b016ca9bc7c557f0bfbe9.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_log_food.png" class="js-load-img" data-feature="logFoot" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h88c95344eb9c2b05139eb0fdbfaf45f3.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fmobile%2F04_Log-Food_screen.jpg" data-default="http://static0.fitbit.com/simple.b-cssdisabled-png.h4ec5ae9a656b016ca9bc7c557f0bfbe9.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_log_food.png">
+                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-png.h0ac8acca8bcacc622c408da6e68c1fec.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_badges.png" class="js-load-img" data-feature="badges" data-mobile="http://static0.fitbit.com/simple.b-cssdisabled-jpg.h0214feb3b30dec7b558950cde86c0c50.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fmobile%2F05_Badges_screen.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-png.h0ac8acca8bcacc622c408da6e68c1fec.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fscreen_badges.png">
+                        <img src="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h5a0e47963aafc139b007c1eb36ae459b.pack?items=%2F%2Fcontent%2Fassets%2Fcommon%2Fimages%2Fapp-dashboard%2Fapp-dashboard-sleep.jpg" class="js-load-img" data-feature="sleep" data-mobile="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h06e88561dcf6f324a4117622cb58397c.pack?items=%2Fcontent%2Fassets%2Fcommon%2Fimages%2Fapp-dashboard%2Fmobile-app-dashboard-sleep.jpg" data-default="http://static1.fitbit.com/simple.b-cssdisabled-jpg.h5a0e47963aafc139b007c1eb36ae459b.pack?items=%2F%2Fcontent%2Fassets%2Fcommon%2Fimages%2Fapp-dashboard%2Fapp-dashboard-sleep.jpg">
+                    </div>
+                </div>
+
+                <div class="device product charge">
+                    <img src="http://static0.fitbit.com/simple.b-cssdisabled-png.h283791b70dc9ad697bb052bccb0d9024.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fcharge_front.png">
+
+                    <div class="screen">
+                        <img data-feature="progress" src="http://static1.fitbit.com/simple.b-cssdisabled-png.h734d740d08b2ef0327212acbfce7326d.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fsee_progress.png" class="">
+                        <img data-feature="workout" src="http://static0.fitbit.com/simple.b-cssdisabled-png.h60ae1a3caf10294b3daee13332bbb6fa.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Frecord.png" class="">
+                        <img data-feature="challenges" src="http://static1.fitbit.com/simple.b-cssdisabled-gif.h4ddf7c51e9046f3e216ee7190273c134.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fshare.gif" class="active">
+                        <img data-feature="logFoot" src="http://static0.fitbit.com/simple.b-cssdisabled-gif.h813f1912dd207bacc58666950b6011d0.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Flog_food.gif" class="">
+                        <img data-feature="badges" src="http://static0.fitbit.com/simple.b-cssdisabled-gif.h1934b03a85a9357e43f0cae0d199caa4.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fscreen%2Fbadges.gif" class="">
+                        <img data-feature="sleep" src="http://static1.fitbit.com/simple.b-cssdisabled-png.h34256776833e080ab5e55bcb80fb248d.pack?items=%2Fcontent%2Fassets%2Fcharge%2Fimages%2Fapp-dashboard%2Fcharge-sleep-screen.png" class="">
+                    </div>
+                </div> -->
+
+            </div>
+
+            <div class="switch-group features">
+                <ul>
+                    <li>
+                        <a data-switch-order="1" class="ic ic-chalice switch" href="javascript:void(0);" data-feature="progress">
+                            <h3>Graphic representations</h3>
+                            <p>Graphic engine to represent real time field data</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-switch-order="2" class="ic ic-boot switch" href="javascript:void(0);" data-feature="workout">
+                            <h3>Go Agile</h3>
+                            <p>Dynamically alter resources based on user needs</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-switch-order="3" class="ic ic-shield switch active" href="javascript:void(0);" data-feature="challenges">
+                            <h3>Smart Water</h3>
+                            <p>Get real time updates and notifications 24x7 in case any set points are breached or any deviation in process occurs</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-switch-order="4" class="ic ic-knife switch" href="javascript:void(0);" data-feature="logFoot">
+                            <h3>Actionable Insights</h3>
+                            <p>Get reports that direct to the inefficiencies in the plants at regular intervals</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a data-switch-order="5" class="ic ic-budget switch" href="javascript:void(0);" data-feature="badges">
+                            <h3>Essential Aspects</h3>
+                            <p>Monitors and logs the power consumption to provide energy efficient ways for sustainable water</p>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- <p class="learn-more"><a href="/app" class="btn brd brd-white learn-more" onclick="dataLayer.push({'event': 'eventTracker', 'eventCat': 'marketing page', 'eventAct': 'learn more - charge', 'eventLbl': '', 'eventVal': 0, 'nonInteraction': 0})">Learn more</a></p> -->
+            </div>
+
+        </div>
+
+    </div></div>
+
+    </div>
+    <script type="text/javascript" src="./js/fitbit1.js" charset="utf-8"></script>
+
+	        <div class="row no-row">
+            <div style="background-color: #be2d1d; text-align: center;" class="col-xs-12 col-sm-12 col-md-12 col-sm-12 col-xs-12">
+			     <h1 style="color:white; display: block; padding-top: 3vw;">What Our Clients Say</h1>
+                 <div class="row no-row">
+                     <div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-xl-offset-4 col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                         
+                         <a href="http://www.thermochem.net/" style="margin-top: 4vw; display:block; width: 100%">
+                           <img style="width: 100%;" src="./images/tcpl.png" class="col-xl-4 col-ls-4 col-md-5 col-sm-4 col-xs-4">
+                         </a>
+                     </div>
+                 </div>
+			     <h2 style="margin-top: 4vw; color:white; display:block;">A very innovative solution by TetherBox for all critical resource tracking applications</h2>
+			     <h3 style="color:white; display:block; padding-bottom: 3vw;">Mr. Sajit Shankar, Director, ThermoChem Corporation Pvt Ltd</h3>
+			</div
 			</div>
-			<!--______________________________________________-->
-			<!-- <div id="backVideo"> -->
-				<video poster="./images/buildings.jpg" id="bgvid" playsinline autoplay muted loop>
-					<source src="./images/In-And-Out.mp4" type="video/mp4">
-				</video>
-			<!-- </div> -->
-			<div style="text-align: center; color: white;">
-				<p style="font-size: 55px; padding-top: 10vw; font-family: Helvetica, Arial, sans-serif;">TECHNOLOGY & INSIGHTS THAT HELP THE WORLD PROGRESS</p>
-				<p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
-				<div class="btn abtMerger">
-					<span>ABOUT THE MERGER</span>
-				</div>
-			</div>
-		</div>
+	
+        <div class="row no-row">
+            <div style="background-color: #E2E2E2; height: 10vw;" class="col-xs-12 col-sm-12 col-md-12 col-sm-12 col-xs-12">
+            <div>
+              <h4 class="footerHeadings" style="padding-top: 3vh">As Covered In</h4>
+                
+                    <div style="padding-top: 2vh">
+                        <a  class="mediaImage" href="http://www.aquadesigns.in/">
+                        <img src="./images/factor_daily.jpg" alt="" />
+                        </a>
+                        <a class="mediaImage" href="www.claroenergy.in">
+                        <img src="./images/the_news_minute.png" alt="" style="    width: 12vw; height: 9vh;" />
+                        </a>
+                        <a  class="mediaImage"href="http://uemgroup.com/"> 
+                        <img src="./images/your_story.jpg" alt="" />
+                        </a>
+                        <a  class="mediaImage" href="http://uemgroup.com/">
+                        <img src="./images/ie.png" alt="" />
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="row no-row" style="padding-top: 20px; padding-bottom: 20px; background-color: white;">
+            <div  style ="padding-top: 2vh" class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                <h4 class="footerHeadings"class="footerHeadings">REACH US AT</h4>
+                <div style="padding-top:  10px;">
 
-
-		
-		<div id="txt1"  style="text-align: center; color: #08338F; padding-bottom: 3vw; background-color: white;">
-			<p style="font-size: 55px; padding-top: 0.8vw;">Welcome To A World</p>
-			<p style="padding-top: 0.8vw; font-size: 30px;">Johnson Controls and Tyco deliver best-in-class building technologies and energy storage</p>
-		</div>
-
-
-		<div id="about" style="background-color: #3ca0ad; width: 100%; display: inline-block;">
-			<div style="text-align: center; font-size: 35px;">
-				WHAT IS NOBLY?
-			</div>
-			<hr style="margin-left: 8vw; margin-right: 8vw; border-top: 1px solid #D3D3D3">
-			<div id="secondBackground">
-				<img src="./images/screens-layered.png" style="width: 42vw;">
-			</div>
-			<div style="text-align: left; margin-left: 8vw;">
-				<h2 class="goodWorld">Creating a</h2>
-				<h2 class="goodWorld">world of good.</h2>
-				<p style="color: #333;" class="desctiption">
-					Nobly is an app for iOS and Android that allows you to create and contribute to a chain-reaction of kindness. Each Deed tells a story, and with Nobly you can share that story with others and allow them to pay it forward with a Deed of their own.
-				</p>
-				<h6 style="font-weight: bold; color: black !important; padding-top: 2vw;">
-					WHO IS NOBLY FOR?
-				</h6>
-				<p style="color: #00606B" class="desctiption">Whether you’re a company interested in bolstering your culture and philanthropic footprint, or simply someone who wants to join a community of kindness, Nobly is for you.</p>
-			</div>
-		</div>
-
-
-		<!-- <div> -->
-			<div class="row no-row" style="padding-top: 25px; padding-bottom: 25px; width: 100%; background-color: white;">
-
-				<div class="col-xl-offset-1 col-lg-offset-1 col-md-offset-1 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-					<div class="row no-row">
-						<div id="business" class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 no-pad zoomer">
-							<div id="businessAnimate" style="height: 100%" class="row no-row">
-								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 no-pad">
-									<div class="col-xl-offset-1 col-xl-10 col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
-										<h3>Nobly For Business</h3>
-										<p>Bringing social Recognization to the Company</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-					<div class="row no-row">
-						<div id="business1" class="col-xl-offset-1 col-xl-10 col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 no-pad zoomer">
-							<div id="businessAnimate1" style="height: 100%" class="row no-row">
-								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 no-pad">
-									<div class="col-xl-offset-1 col-xl-10 col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		<!-- </div> -->
-
-
-
-		<div style="width: 100%">
-			<div class="row no-row">
-				<div class="col-xl-5 col-ld-5 col-md-5 col-sm-12 col-xs-12" style="height: 32vw; background-color: #65BC46">
-					<div class="row">
-						<div style="height: 28vw;">
-							<div style="margin-left: 3vw; margin-right: 3vw; padding-top: 6vw;">
-							<!--________news content 1________-->
-								<div id="newsContent1">
-									<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 1</div>
-									<div>
-										<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
-									</div>
-									<div style="color: #296813;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
-								</div>
-							<!--____________________________-->
-							<!--_______news content 2_______-->
-
-								<div id="newsContent2" style="display: none;">
-									<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 2</div>
-									<div>
-										<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
-									</div>
-									<div style="color: #296813;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
-								</div>
-							<!--____________________________-->
-
-							</div>
-						</div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-top: 2px solid #51A831; height: 4vw;">
-							<div class="row" style="height: 100%; text-align: center; color: white;">
-								<div style="float: right; width: 4vw; height: 100%; border-left: 2px solid #51A831;">
-									<i id="prev" style="font-size: 1vw; margin-top: 1.5vw; cursor: pointer;" class="fa fa-chevron-up"></i>
-								</div>
-								<div style="float: right; width: 4vw; height: 100%; border-left: 2px solid #51A831;">
-									<i id="next" style="font-size: 1vw; margin-top: 1.5vw; cursor: pointer;" class="fa fa-chevron-down"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-7 col-ld-7 col-md-7 col-sm-12 col-xs-12 news" style="height: 32vw; text-align: center;">
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 32vw; background-color: rgba(0,0,0,0.5);">
-							<div class="row">
-								<div style="height: 0.4vw; background-color: #fff; border-radius: 1vw; margin-top: 2vw;" class="col-xl-offset-4 col-xl-4 col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4"></div>
-							</div>
-							<div style="padding-top: 1vw;" class="row">
-								<p class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="color: white; font-size: 2.3vw;">JOHNSON CONTROLS</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row no-row">
-				<div class="col-xl-7 col-ld-7 col-md-7 col-sm-12 col-xs-12 news" style="height: 32vw; text-align: center;">
-					<div class="row">
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height: 32vw; background-color: rgba(0,0,0,0.5);">
-							<div class="row">
-								<div style="height: 0.4vw; background-color: #fff; border-radius: 1vw; margin-top: 2vw;" class="col-xl-offset-4 col-xl-4 col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4"></div>
-							</div>
-							<div style="padding-top: 1vw;" class="row">
-								<p class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="color: white; font-size: 2.3vw;">JOHNSON CONTROLS</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-5 col-ld-5 col-md-5 col-sm-12 col-xs-12" style="height: 32vw; background-color: #2CBCB1">
-					<div class="row">
-						<div style="height: 28vw;">
-							<div style="margin-left: 3vw; margin-right: 3vw; padding-top: 6vw;">
-							<!--________news content 1________-->
-								<div id="newsContent1">
-									<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 1</div>
-									<div>
-										<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
-									</div>
-									<div style="color: #0E635D;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
-								</div>
-							<!--____________________________-->
-							<!--_______news content 2_______-->
-
-								<div id="newsContent2" style="display: none;">
-									<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE 2</div>
-									<div>
-										<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
-									</div>
-									<div style="color: #0E635D;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
-								</div>
-							<!--____________________________-->
-
-							</div>
-						</div>
-						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style="border-top: 2px solid #1B9F95; height: 4vw;">
-							<div class="row" style="height: 100%; text-align: center; color: white;">
-								<div style="float: right; width: 4vw; height: 100%; border-left: 2px solid #1B9F95;">
-									<i id="prev" style="font-size: 1vw; margin-top: 1.5vw; cursor: pointer;" class="fa fa-chevron-up"></i>
-								</div>
-								<div style="float: right; width: 4vw; height: 100%; border-left: 2px solid #1B9F95;">
-									<i id="next" style="font-size: 1vw; margin-top: 1.5vw; cursor: pointer;" class="fa fa-chevron-down"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	<!-- 
-			<div class="row no-row" style="margin-top: 10px;">
-				<div class="col-xl-7 col-ld-7 col-md-7 col-sm-12 col-xs-12 news" style="height: 32vw; text-align: center;">
-					<div class="row">
-						<div class="col-md-12" style="height: 32vw; background-color: rgba(0,0,0,0.5);">
-							<div class="row">
-								<div style="height: 0.4vw; background-color: #fff; border-radius: 1vw; margin-top: 2vw;" class="col-md-offset-4 col-md-4"></div>
-							</div>
-							<div style="padding-top: 1vw;" class="row">
-								<p class="col-md-12" style="color: white; font-size: 2.3vw;">JOHNSON CONTROLS</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-xl-5 col-ld-5 col-md-5 col-sm-12 col-xs-12" style="height: 37vw; background-color: #2CBCB1">
-					<div class="row">
-						<div style="height: 28vw;">
-							<div style="margin-left: 3vw; margin-right: 3vw; padding-top: 6vw;">
-								<div style="font-size: 13px; text-transform: uppercase; color: #fff;">NEWS RELEASE</div>
-								<div>
-									<h3 style="margin-top: 10px; margin-bottom: 10px; color: white;">JOHNSON CONTROLS REPORTS 2016 FISCAL FOURTH QUARTER AND FULL YEAR EARNINGS</h3>
-								</div>
-								<div style="color: #0E635D;">We delivered another strong quarter and an exceptional 2016, continuing the strong performance we have seen throughout the year,” said Alex Molinaroli, Johnson Controls chairman & CEO.</div>
-							</div>
-						</div>
-						<div class="col-md-12" style="border-top: 2px solid #1B9F95; height: 6vw;">
-							<div class="row" style="height: 100%; text-align: center; color: white;">
-								<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #1B9F95;">
-									<i style="font-size: 1.5vw; margin-top: 2.2vw;" class="fa fa-chevron-up"></i>
-								</div>
-								<div style="float: right; width: 6vw; height: 100%; border-left: 2px solid #1B9F95;">
-									<i style="font-size: 1.5vw; margin-top: 2.2vw;" class="fa fa-chevron-down"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
-
-		</div>
-
-		<div class="row no-row">
-			<div style="background-color: #E2E2E2; height: 10vw;" class="col-xs-12 col-sm-12 col-md-12 col-sm-12 col-xs-12">
+                    <p style="padding-top:  3px;">TetherBox Technologies LLP.  </p>
+                    <p style="padding-top:  3px;">2nd Floor, PVR Complex, 80 feet road,</p>
+                    <p style="padding-top:  3px;">Indira Nagar, Bengaluru – 560038</p>
+                </div>
+				<div>
+				<p></P>
+                    <p style="padding-top:  3px;"><br /> support@tethr.it</p>
+                </div>
+				<div>
 				
+				<p style="padding-top:  3px;"><br /> 91 (80) 25 255133</p>
+                    <p style="padding-top:  3px;">+91 9739 446121</p>
+                </div>
+            </div>
+            <div style ="padding-top: 3vh"  class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
+                <h4 class="footerHeadings">ON THE BLOG</h4>
+                <div class="row" style="padding-top: 10px; width: 100%">
+                    <div class="colcol-xl-12 col-ls-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <img src="./images/1.png" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                        <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog " href="http://blog.tethr.it/bellandur-lake-the-toxic-paradise/">
+                            Bellandur Lake – The Toxic Paradise
+                        </a>
+                    </div>
+                    <div class="row">
+                    <img src="./images/2.jpg" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                    <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog" href="http://blog.tethr.it/how-video-analytics-is-changing-the-face-of-sales-in-retail/">
+                        How VIDEO ANALYTICS is changing the face of sales in retail
+                    </a>
+                    </div>
+                    <div class="row">
+                    <img src="./images/3.jpg" class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3">
+                    <a class="col-xl-9 col-ls-9 col-md-9 col-sm-9 col-xs-9 onBlog" href="http://blog.tethr.it/5-reasons-why-bengaluru-is-the-ideal-place-for-start-ups/">
+                        5 reasons why Bengaluru is the ideal place for start-ups
+                    </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div style ="padding-top: 3vh" class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4 ">
+                <h4 class="footerHeadings">CLIENTS</h4>
+                   <div class="row" > 
+                    <a href="http://www.aquadesigns.in/">
+                    	<img src="./images/aqua_design.png" class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    </a>
+                    <a href="www.claroenergy.in">
+                    	<img src="./images/claro.png"  class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    </a>
+                    <a href="http://uemgroup.com/">
+                    	<img src="./images/uem.png"  class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    </a>
+                    </div >
+                    <div style="margin-top: 1vw" class="row">
+                    <a href="http://kspcb.gov.in"  class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    	<img src="./images/kspcb.jpg" style="width: 100% ;height:auto" >
+                    </a>
+                    <a href="http://www.visionearthcare.com/"  class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    	<img src="./images/vec.jpg" style="width: 100% ;height:auto">
+                    </a>
+                    <a href="https://bwssb.gov.in/"   class="col-xl-4 col-ls-4 col-md-4 col-sm-4 col-xs-4">
+                    	<img src="./images/bwssb.jpg" style="width: auto ;height:12vh">
+                    </a>
+                    </div>
 			</div>
-		</div>
-		<div class="row no-row" style="padding-top: 20px; padding-bottom: 20px; background-color: white;">
-			<div class="col-xl-offset-1 col-sm-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
-				<h4>NOBLY</h4>
-				<p>Build a campaign of kindness and see how far one good deed can go.</p>
-			</div>
-			<div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
-				<h4>ON THE BLOG</h4>
-				<p>Build a campaign of kindness and see how far one good deed can go.</p>
-			</div>
-			<div class="col-xl-3 col-ls-3 col-md-3 col-sm-3 col-xs-3 ">
-				<h4>TRENDING TOPICS</h4>
-				<div class="footer-trnding btn">Business</div>
-				<div class="footer-trnding btn">DailyRack</div>
-				<div class="footer-trnding btn">Events</div>
-				<div class="footer-trnding btn">Featured</div>
-				<div class="footer-trnding btn">Food for Thought</div>
-			</div>
-			<div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
-				<h4>AROUND THE SITE</h4>
-				<a href="#about">Home</a>
-				<a href="#about">Home</a>
-			</div>
-		</div>
-		<div style="background-color: #1F1F1F; height: 5vw;">
-			<p style="color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 Nobly. All rights reserved, Nobly LLC</p>
-		</div>
-	</div>
+<!--             <div class="col-xl-2 col-ls-2 col-md-2 col-sm-2 col-xs-2 ">
+                <h3>CLIENTS</h3>
+                <a href="#about">Home</a>
+                <a href="#about">Home</a>
+            </div> -->
+        </div>
+        <div style="background-color: #1F1F1F; height: 5vw;">
+           <div style="padding-top: 15px">
+            <p style="display: inline; color: #777777!important; font-size: 0.9vw; padding-top: 2vw; margin-left: 7vw;">&copy; 2016 TetherBox Technologies LLP. All rights reserved</p>
+            <div style="display: inline-block; float: right; padding-right: 70px;" >
 
-	<!--___________________Side Bar____________________-->
-	<div id="sideNavBar" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" style="display: none; height: 100vh; background-color: #202020;margin-left: -15px;">
-		<div class="row">
-			<!-- <div class="dol-md-12"></div> -->
-			<a class="btn" style="background-color: white; width: 100%; margin-right: -15px; padding-top: 10px; padding-bottom: 10px;" href="./elimento.html"><i class="fa fa-building"></i> Elimento </a>
-		</div>
-	</div>
-	<!--_______________________________________________-->
-	</div>
-</body>
+            <a target="_blank" style="margin-right: 15px;" href="https://www.facebook.com/tethrIT/">
+                    <i class="fa fa-facebook socialIcon" aria-hidden="true" style="color:#be1e2d;"></i>
+                </a>
+                <a target="_blank" style="margin-right: 15px;" href="https://twitter.com/TethrIT">
+                    <i class="fa fa-twitter socialIcon" aria-hidden="true" style="color:#be1e2d;"></i>
+                </a>
+                <a target="_blank" style="margin-right: 15px;" href="https://www.linkedin.com/company/tetherbox-technologies">
+                    <i class="fa fa-linkedin-square socialIcon" aria-hidden="true" style="color:#be1e2d;"></i>
+                </a>
+             </div> 
+             </div>
+        </div>
+   </div>
+   </div>
+
+    <!--___________________Side Bar____________________-->
+    <div id="sideNavBar" class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" style="display: none; height: 100vh; background-color: #202020;margin-left: -15px; z-index: 9999;">
+        <div class="row">
+            <!-- <div class="dol-md-12"></div> -->
+            <a class="btn" style="background-color: white; width: 100%; margin-right: -15px; padding-top: 10px; padding-bottom: 10px;" href="./index.html"><i class="fa fa-building"></i> Home</a>
+        </div>
+    </div>
+    <!--_______________________________________________-->
+    </div>
+    </body> 
 </html>
+ 
+
+
+   
+  
+
+
